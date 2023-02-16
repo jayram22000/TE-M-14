@@ -132,8 +132,7 @@
   .col-md-4 {
     float: left;
     width: 66.6667%;
-  }
-
+  
 
 @media (max-width: 30%) {
   .footer {
@@ -143,6 +142,7 @@
   .footer h4 {
     margin-top: 20px;
   }
+  
 
   .map-responsive {
   margin-bottom: 10px;
@@ -164,8 +164,10 @@
           <li><a href="https://www.facebook.com/your-restaurant" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.instagram.com/your-restaurant" target="_blank"><i class="fa fa-instagram"></i></a></li>
           <li><a href="https://twitter.com/your-restaurant" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://www.youtube.com"/your-restaurant" target="_blank"><i class="fa fa-youtube"></i></a></li>
-          <img src="path/to/your/logo.png" alt="Your Restaurant Logo">
+          <li><a href="https://www.youtube.com"/y\Usour-restaurant" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          
+          <img src="jjawhxxp_0.png" alt="logo">
+          
       </ul>
       </div>
        <div clas="col-md-6">
