@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<CTYPE html>
 <html>
     <head>
 <title>Salsa Restaurant</title>
@@ -65,7 +65,7 @@
   left: 0;
   top: 0;
   height: 50%;
-  width: 50%;
+  width: 50%;w
   position: absolute;
   border: 0;
 }
@@ -119,4 +119,4 @@
       </div>
     </div>
   </div>
-</footer>
+</footer>!DO
