@@ -129,6 +129,8 @@
   .col-md-6 {
     float: left;
     width: 66.6667%;
+    text-align: center;
+
   }
   .col-md-5 {
     float: center;
@@ -146,6 +148,7 @@
 
   .footer h4 {
     margin-top: 20px;
+    text_align: center;
   }
   
 
