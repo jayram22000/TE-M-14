@@ -1,5 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Salsa Restaurant</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-//* Footer Styles */
+/* Footer Styles */
 .body{
   background:black;
 }
@@ -46,7 +54,7 @@
 }
 
 .social-icons a:hover {
-  background-color: #333;
+  background-color: gray;
   color: #fff;
 }
 
@@ -55,19 +63,14 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-  padding:auto;
-  margin:auto;
 }
 
 .map-responsive iframe {
   left: 0;
   top: 0;
   height: 50%;
-  width: 100%;
+  width: 50%;
   position: absolute;
-  margin:auto;
-  padding:auto;
-  text allign:center;
 
 }
 .container{
@@ -79,6 +82,7 @@
   float:left;
 
 }
+/*
 .col-md-4{
   position: relative;
   width:100%;
@@ -98,6 +102,7 @@
   padding-left: 15px;
   box-sizing: border-box;
 }
+
 .col-md-5{
   position: relative;
   width:100%;
@@ -107,60 +112,114 @@
   padding-left: 15px;
   box-sizing: border-box;
 }
+*/
+.footer a {
+  color: silver;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  color: white;
+}
+/*styling*/
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.fab:hover {
+ /* background-color: darkblue;*/
+  color: white;
+
+}
+
 /* Logo styles */
 
 .footer img {
   max-width: 200px;
   margin-bottom: 20px;
 }
+/*
 @media (min-width: 80%) 
   .col-md-4 {
     float: right;
     width: 33.3333%;
   }
+  
   .col-md-6 {
-    float: left;
+    float: right;
     width: 66.6667%;
-    text-align: center;
-
   }
-  .col-md-5 {
+  .col-md-4 {
     float: center;
     width: 66.6667%;
   }
   .col-md-4 {
-    float:right;
-    width:auto
-  }
+    float: left;
+    width: 66.6667%;
+  
 
-@media (max-width: 30%) {
+@media (max-width: 30%) {}
+*/
   .footer {
     text-align: center;
   }
 
   .footer h4 {
-    margin-top: 20px;
     text_align: center;
   }
   
 
   .map-responsive {
-  margin-bottom: 10px;
-  overflow: hidden;
-  padding-bottom: 40%; /* adjust this value to your desired size */
-  position: relative;
-  height: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 40%; /* adjust this value to your desired size */
+    position: relative;
+    height: 0;
   }
-}
+
+
 .navbar-brand img {
     width: 60px;
     height: 60px;
     margin: auto;
     background-color: transparent;
-   
+   }
+
+
+
+  * {
+  box-sizing: border-box;
   }
+
+/* Create three equal columns that floats next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 75px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 <footer>
+
   <div class="container">
       <div class="col-md-4">
       <h4>Follow us</h4>
@@ -187,6 +246,5 @@
       
       </div>
       </div>
-   </footer>
-   </body>
-   </html>
+
+    </footer>

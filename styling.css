@@ -18,6 +18,49 @@
   
   .nav-col{
     max-width: 100%;
+
+    padding: 1% flex;
+    background-color: none;
+  
+  }
+  .nav-link {
+    font-size: 100%;
+    max-width: 100%;
+    color: #222;
+    padding: 1% flex;
+    background-color:  none;
+
+ 
+  }
+  /* Add hover effect to navbar links */
+  .navbar-nav .nav-link:hover {
+    color: rgb(195, 118, 17);
+  }
+  
+  /* Style the active navbar link */
+  .navbar-nav .nav-item.active .nav-link {
+    color: rgb(195, 118, 17);
+  }
+  
+  /* Style the restaurant logo */
+  .navbar-brand img {
+
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    background-color: transparent;
+
+    position: fixed;
+    height: auto;
+    width: 250px;
+  }
+  
+  /* Customize the navbar background and border */
+  .navbar {
+    background-color:black;
+    width:auto;
+    height: auto;
+
    
   }
    /* Style the navbar links */
