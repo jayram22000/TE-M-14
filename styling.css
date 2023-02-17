@@ -50,12 +50,6 @@
   
   /* Style the restaurant logo */
   .navbar-brand img {
-<<<<<<< Updated upstream
-    width: 60px;
-    height: 60px;
-    margin: auto;
-    background-color: transparent;
-=======
     position: fixed;
     height: auto;
     width: 250px;
@@ -66,7 +60,6 @@
     background-color:black;
     width:auto;
     height: auto;
->>>>>>> Stashed changes
    
   }
 .nav-item{
