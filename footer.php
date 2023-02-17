@@ -218,9 +218,7 @@
         <p>Phone:123-456-7890</p>
         <p><?php echo date('F j, Y, g:i a');?></p>
         <p><a href="https://example.com/privacy-policy">Privacy Policy</a></p>
-        <a href="#" class="fab">+</a>
-        <p><a href="https://example.com/privacy-policy">Privacy Policy</a></p>
-        <a href="#" class="fab"></a>
+         <a href="#" class="fab"></a>
       </div>
 <<<<<<< HEAD
     </div>
