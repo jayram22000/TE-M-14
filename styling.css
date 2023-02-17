@@ -1,11 +1,6 @@
 
   /* Adjust container width on smaller screens */
-.container{
-  margin:auto;
-  padding:auto;
 
-  
-}
 
 .flex-container {
   display: flex;
@@ -15,10 +10,11 @@
 
 .flex-container > div {
   width: 100px;
-  margin: 10px;
+  margin: 50px;
+  padding:75px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .nav-col{

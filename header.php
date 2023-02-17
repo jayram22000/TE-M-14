@@ -11,8 +11,8 @@
                                             <!-- Bootstrap CSS -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="flex-container">
-            <div class="container">
+
+            <div class="container" class="flex-container">
                 <a class="navbar-brand" href="#"><img src="logo.png" alt="Salsa Restaurants"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -26,15 +26,24 @@
                           <div> <a class="nav-link" href="#">Menu</a> </div>
                         </li>
                         <li class="nav-item">
-                          <div> <a class="nav-link" href="#">About us</a> </div>
+                            <div> <a class="nav-link" href="#">About us</a> </div>
                         </li>
                         <li class="nav-item">
-                          <div> <a class="nav-link" href="#">Online Order</a> </div>
+                            <div><a class="nav-link" href="#">Online Order</a> </div>
                         </li>
                         <li class="nav-item">
                           <div>  <a class="nav-link" href="#">Opening Hours</a> </div>
                         </li>
-                
+                  <!-- #region -->
+                        <li class="nav-item">
+                          <div>  <a class="nav-link" href="#">Gift Card</a> </div>
+                        </li>
+                        <li class="nav-item">
+                          <div>  <a class="nav-link" href="#">Catering</a> </div>
+                        </li>
+                        <li class="nav-item">
+                          <div>  <a class="nav-link" href="#">The event loft</a> </div>
+                        </li>
                         <!-- Language selection drop-down -->
                         <li class="nav-item">
                             <a class="nav-link">
@@ -67,7 +76,7 @@
                     }
                 </script>
             </div>
-        </div>
+        
     </nav>
     </body>
     </html>       
