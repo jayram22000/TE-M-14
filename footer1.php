@@ -73,7 +73,7 @@
   position: absolute;
 
 }
-.container{
+.footer-container{
   max-width:100%;
   border:10% solid;
   margin:0 auto;
@@ -169,7 +169,7 @@
 </style>
 <footer>
 
-  <div class="container">
+  <div class="footer-container">
     <div class="row">
       <div class="column">
         <h4>Follow us</h4>
