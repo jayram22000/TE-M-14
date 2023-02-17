@@ -25,7 +25,7 @@
                           <div> <a class="nav-link" href="menu.php">Menu</a> </div>
                         </li>
                         <li class="nav-item">
-                            <div> <a class="nav-link" href="#">About us</a> </div>
+                            <div> <a class="nav-link" href="aboutus.php">About us</a> </div>
                         </li>
                         <li class="nav-item">
                             <div><a class="nav-link" href="#">Online Order</a> </div>
