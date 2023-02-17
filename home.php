@@ -1,25 +1,15 @@
 <?php
-$title = "Home";
- include "header.php"?><!-- universal header !-->
 
- <style>         /*  my  home layout project from previous assignment with css and html   */
- body{
-  background-color:none;
-    font-family: latha;
-    color:whitesmoke;
-    background:url(food.jpg)no-repeat;
-    background-size: cover;
-}
- 
-.opt 
-{
-align-items: center;
-}
-<style>
+
+   <body>
+        <style>
   /* Set the font family and size for all elements */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+  body{
+    background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
   }
 
   /* Style the container element */
@@ -68,24 +58,21 @@ align-items: center;
     cursor: not-allowed;
   }
 </style>
-
- <body>
-  <div class="container">
-    <h1 class="mt-5">Welcome</h1>
-    <div class="row mt-4">
-      <div class="col-md-8">
-        <h4>The first sentence of the description clearly outlines something unique about the restaurant: its passion for masa. This establishes the "traditional" component of Suerte's menu, which blends traditional Mexican cooking with local Texas ingredients. The photo beside the description further amplifies this idea, showcasing traditional Mexican art while establishing a bright, exuberant visual style for the brand. When image and text work in harmony like this, it can be extremely powerful.</h4>
-      </div>
-      <div class="col-md-4">
-        <h2>Reservation</h2>
-        <div class="opt">
-          <form action="" method="post">
-            <button class="btn btn-primary" type="submit">Book a Table</button>
-          </form>
+ <div class="container">
+        <h1 class="mt-5">Welcome</h1>
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <h4 class="mt-4">The first sentence of the description clearly outlines something unique about the restaurant: its passion for masa. This establishes the "traditional" component of Suerte's menu, which blends traditional Mexican cooking with local Texas ingredients. The photo beside the description further amplifies this idea, showcasing traditional Mexican art while establishing a bright, exuberant visual style for the brand. When image and text work in harmony like this, it can be extremely powerful.</h4>
+            </div>
+            <div class="col-md-4">
+                <h2 class="mt-4">Reservation</h2>
+                <div class="opt mt-4">
+                    <form action="" method="post">
+                        <button class="btn btn-primary" type="submit">Book a Table</button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</body>
 
 <?php include "footer.php" ?>   <!-- universal footer !-->
