@@ -23,7 +23,7 @@
                           <div> <a class="nav-link" href="home.php">Home</a> </div>
                         </li>
                         <li class="nav-item">
-                          <div> <a class="nav-link" href="#">Menu</a> </div>
+                          <div> <a class="nav-link" href="menu.html">Menu</a> </div>
                         </li>
                         <li class="nav-item">
                             <div> <a class="nav-link" href="#">About us</a> </div>
