@@ -1,71 +1,70 @@
-
-  /* Adjust container width on smaller screens */
+/* Adjust container width on smaller screens */
 
 
 .flex-container {
-  display: flex;
- flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-container > div {
-  width: 100px;
-  margin: 50px;
-  padding:75px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 50px;
-}
-
-.nav-col{
-  max-width: 100%;
- 
-}
- /* Style the navbar links */
-.navbar-nav  {
-    font-size: 100%;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    margin: 50px;
+    padding:75px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 50px;
+  }
+  
+  .nav-col{
     max-width: 100%;
-    padding: 1% flex;
-    background-color: none;
-  
-  }
-  .nav-link {
-    font-size: 100%;
-    max-width: 100%;
-    color: #222;
-    padding: 1% flex;
-    background-color:  none;
-
- 
-  }
-  /* Add hover effect to navbar links */
-  .navbar-nav .nav-link:hover {
-    color: rgb(195, 118, 17);
-  }
-  
-  /* Style the active navbar link */
-  .navbar-nav .nav-item.active .nav-link {
-    color: rgb(195, 118, 17);
-  }
-  
-  /* Style the restaurant logo */
-  .navbar-brand img {
-    width: 60px;
-    height: 60px;
-    margin: auto;
-    background-color: transparent;
    
   }
-.nav-item{
-  margin:auto;
-  padding: auto;
-  font-size: medium;
-} 
+   /* Style the navbar links */
+  .navbar-nav  {
+      font-size: 100%;
+      max-width: 100%;
+      padding: 1% flex;
+      background-color: none;
+    
+    }
+    .nav-link {
+      font-size: 100%;
+      max-width: 100%;
+      color: #222;
+      padding: 1% flex;
+      background-color:  none;
+  
+   
+    }
+    /* Add hover effect to navbar links */
+    .navbar-nav .nav-link:hover {
+      color: rgb(195, 118, 17);
+    }
+    
+    /* Style the active navbar link */
+    .navbar-nav .nav-item.active .nav-link {
+      color: rgb(195, 118, 17);
+    }
+    
+    /* Style the restaurant logo */
+    .navbar-brand img {
+      width: 60px;
+      height: 60px;
+      margin: auto;
+      background-color: transparent;
+     
+    }
+  .nav-item{
+    margin:auto;
+    padding: auto;
+    font-size: medium;
+  } 
   body{
-      font-family:sans-serif;
+    background-color:none;
+      font-family: latha;
+      color:whitesmoke;
       background:url(food.jpg)no-repeat;
       background-size: cover;
-      width:100%;
-      height:100%;
   }
- 
+   
