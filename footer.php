@@ -9,12 +9,7 @@
     </head>
 <body>
 <style>
-<<<<<<< HEAD
-
-//* Footer Styles */
-=======
 /* Footer Styles */
->>>>>>> f7d6c38622394a2fbba01b68440b50d31381628e
 .body{
   background:black;
 }
@@ -76,11 +71,7 @@
   left: 0;
   top: 0;
   height: 50%;
-<<<<<<< HEAD
-  width: 50%;w
-=======
-  width: 100%;
->>>>>>> f63b07961647fa5af01d476848b47f8eb55417c6
+  width: 50%;
   position: absolute;
 
 }
@@ -93,6 +84,7 @@
   float:left;
 
 }
+/*
 .col-md-4{
   position: relative;
   width:100%;
@@ -112,6 +104,7 @@
   padding-left: 15px;
   box-sizing: border-box;
 }
+
 .col-md-5{
   position: relative;
   width:100%;
@@ -121,7 +114,7 @@
   padding-left: 15px;
   box-sizing: border-box;
 }
-
+*/
 .footer a {
   color: silver;
   font-size: 14px;
@@ -131,6 +124,7 @@
 
 .footer a:hover {
   color: white;
+}
 /*styling*/
 .fab {
   position: fixed;
@@ -148,7 +142,7 @@
 }
 
 .fab:hover {
-  background-color: darkblue;
+ /* background-color: darkblue;*/
   color: white;
 
 }
@@ -159,29 +153,16 @@
   max-width: 200px;
   margin-bottom: 20px;
 }
+/*
 @media (min-width: 80%) 
   .col-md-4 {
     float: right;
     width: 33.3333%;
   }
-<<<<<<< HEAD
-  /*
-  .col-md-4 {
-    align-content: space-around;
-    width: 66.6667%;
-    text-align: center;
-    background-color: DodgerBlue;
-    color: white;
-    width: 100px;
-    margin: 50px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-=======
+  
   .col-md-6 {
     float: right;
     width: 66.6667%;
->>>>>>> f7d6c38622394a2fbba01b68440b50d31381628e
   }
   .col-md-4 {
     float: center;
@@ -199,22 +180,18 @@
   }
 
   .footer h4 {
-<<<<<<< HEAD
     text_align: center;
-=======
-    margin-top: 20px;
->>>>>>> f7d6c38622394a2fbba01b68440b50d31381628e
   }
   
 
   .map-responsive {
-  margin-bottom: 10px;
-  overflow: hidden;
-  padding-bottom: 40%; /* adjust this value to your desired size */
-  position: relative;
-  height: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 40%; /* adjust this value to your desired size */
+    position: relative;
+    height: 0;
   }
-<<<<<<< HEAD
+
 
 .navbar-brand img {
     width: 60px;
@@ -222,23 +199,18 @@
     margin: auto;
     background-color: transparent;
    }
- 
-  .flex-container {
-  display: flex;
-  background-color: #f1f1f1;
-  }
+
+
 
   * {
   box-sizing: border-box;
-}
+  }
 
 /* Create three equal columns that floats next to each other */
 .column{
- 
   float: left;
   width: 33.33%;
   padding: 75px;
-  /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -269,11 +241,12 @@
         </div>  
           <div class="column">
             <h4>Find Us</h4>
-              <p>13100,Hämeenlinna FINLAND</p>
+            <p>13100,Hämeenlinna FINLAND</p>
             <div class="map-responsive"> 
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30677.13959557388!2d23.995459099999998!3d61.278440700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ee59e7dd29a31%3A0xf511c3e7a9213906!2sS-Market%20Superi!5e0!3m2!1ssv!2sfi!4v1676457121365!5m2!1ssv!2sfi" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
             </div>
+            <p><a href="https://example.com/privacy-policy">Privacy Policy</a></p>
+            <a href="#" class="fab"></a>
           </div>
         
     </div>
@@ -284,47 +257,3 @@
     
       
 
-=======
-}
-
-</style>
-</head>
-<body>
-<footer class="footer">
-  <div class="container">
-      <div class="col-md-4">
-      <h4>Follow us</h4>
-      <ul class="social-icons">
-          <li><a href="https://www.facebook.com/your-restaurant" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com/your-restaurant" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://twitter.com/your-restaurant" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-          
-          <img src="jjawhxxp_0.png" alt="logo">
-          
-      </ul>
-      </div>
-       <div clas="col-md-6">
-        <h4>Find Us</h4>
-        <p>13100,Hämeenlinna FINLAND</p>
-        <div class="map-responsive"> 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30677.13959557388!2d23.995459099999998!3d61.278440700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ee59e7dd29a31%3A0xf511c3e7a9213906!2sS-Market%20Superi!5e0!3m2!1ssv!2sfi!4v1676457121365!5m2!1ssv!2sfi" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="col-md-5">
-        <h4>Contact Us</h4>
-        <p>Email:salsarestaurant@gmail.com</p>
-        <p>Phone:123-456-7890</p>
-        <p><?php echo date('F j, Y, g:i a');?></p>
-        <p><a href="https://example.com/privacy-policy">Privacy Policy</a></p>
-         <a href="#" class="fab"></a>
-      </div>
-<<<<<<< HEAD
-    </div>
-  </div>
-</footer>!DO
-=======
-  </footer>
-        </body>
-        </html>
->>>>>>> f63b07961647fa5af01d476848b47f8eb55417c6
->>>>>>> f7d6c38622394a2fbba01b68440b50d31381628e
