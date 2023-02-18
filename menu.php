@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 $title = "Exercise: Number 1";
 include "header.php" ?>
@@ -170,3 +171,5 @@ include "header.php" ?>
 
 </html>
 <?php include "footer.php" ?>
+=======
+>>>>>>> 56b2fceeec6492c4f2386a3949191002f77612d3
