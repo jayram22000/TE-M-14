@@ -32,8 +32,8 @@
   display: inline-block;
   line-height: 1rem;
   border-radius: 30%;
-  width: 40px;
-  height: 40px;
+  width: 5rem;
+  height: auto;
   text-align: center;
 
 }
@@ -69,19 +69,51 @@
 
 
 .navbar-brand img {
-    width: 10%;
+    width: 3rem;
     height: auto;
     margin: auto;
     background-color: transparent;
+   
    }
 
+  .flex-container {
 
+  background-color: transparent;
+  position: inline-start;
+  }
+
+  .flex-container2 {
+  padding-bottom: 5rem;
+  background-color: transparent;
+  position: inline;
+  }
+
+  .flex-container3 {
+    padding-bottom: 5rem;
+    position: inline;
+  }
+/*
+.flex-container > div {
+  background-color: transparent;
+  margin: 3px;
+  padding: 1rem;
+  font-size: 30px;
+  }
+
+ .icon {
+  background-color: transparent;
+  margin: 1rem;
+  padding: 0.25rem;
+  font-size: 1rem;
+  float: left;
+  }*/
 
   * {
   box-sizing: border-box;
+background-color: grey;
   }
 
-/* Create three equal columns that floats next to each other */
+/* Created three equal columns that float next to each other */
 .column{
   float: left;
   width: 33.33%;
@@ -103,13 +135,20 @@
           
         <ul class="social-icons">
           <h4>Follow us</h4> 
-          <p> <a class="navbar-brand" href=""><img src="logo.png" alt="Salsa Restaurants"></p>
+            
+            <div class="flex-container">
             <li><a href="https://www.facebook.com/your-restaurant" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/your-restaurant" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </div>
+            <div class="flex-container2">
             <li><a href="https://twitter.com/your-restaurant" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-      </div>
+            </div>
+          </ul>
+          <!--<div class="flex-container3">
+          <p> <a class="navbar-brand" href=""><img src="logo.png" alt="Salsa Restaurants"></p>
+          </div>-->
+        </div>
       
       <div class="column">
           <h4>Contact Us</h4>
