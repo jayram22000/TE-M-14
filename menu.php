@@ -61,6 +61,21 @@ include "header.php" ?>
         .menu-description {
             margin-bottom: 10px;
         }
+        .ocFeedbackButton {
+    min-width: 62px;
+    height: 28px;
+    font-family: "Segoe UI","Segoe UI Web","wf_segoe-ui_normal","Helvetica Neue",Helvetica,Tahoma,"BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 15px;
+    
+   
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    
+    margin: 2px 5px 0 0;
+    padding: 3px 20px;
+}
 
         .menu-price {
             float: right;
@@ -71,11 +86,6 @@ include "header.php" ?>
 </head>
 
 <body>
-
-
-
-
-
     <header>
         <h1>Restaurant Menu</h1>
     </header>
@@ -127,11 +137,8 @@ include "header.php" ?>
 
     </section>
 
-</body>
 
-</html>
-
-</style>
+    </style>
     <div id="ocFooterWrapper">
  <div id="supWrapperToPreventFeedbackFlickering" data-enable-star-rating="False">
   <section id="supFeedbackWrapper" class="prrFeedbackWrapper">
@@ -157,5 +164,9 @@ include "header.php" ?>
    </div>
    </div>
 
-<img src="logo.png" alt="">
+
+
+</body>
+
+</html>
 <?php include "footer.php" ?>
