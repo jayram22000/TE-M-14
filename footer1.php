@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-<title>Salsa Restaurant</title>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,11 +19,11 @@
 
 .social-icons li:last-child {
   margin-right: 0;
-}*/
+}
 
 .social-icons li {
   display: inline-block;
-  margin-right: 5rem;
+  margin-right: 1rem;
 }
 
 .social-icons a {
@@ -72,7 +69,7 @@
 
 
 .navbar-brand img {
-    width: 25%;
+    width: 10%;
     height: auto;
     margin: auto;
     background-color: transparent;
@@ -106,6 +103,7 @@
           
         <ul class="social-icons">
           <h4>Follow us</h4> 
+          <p> <a class="navbar-brand" href=""><img src="logo.png" alt="Salsa Restaurants"></p>
             <li><a href="https://www.facebook.com/your-restaurant" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/your-restaurant" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://twitter.com/your-restaurant" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -118,7 +116,7 @@
           <p>Email:salsarestaurant@gmail.com</p>
           <p>Phone:123-456-7890</p>
           <p><?php echo date('F j, Y, g:i a');?></p>
-          <p> <a class="navbar-brand" href=""><img src="logo.png" alt="Salsa Restaurants"></p>
+          
       </div>
       <div class="column">   
           <h4>Find Us</h4>
