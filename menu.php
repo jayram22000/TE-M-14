@@ -1,146 +1,114 @@
-<<<<<<< HEAD
+
 <?php
 $title = "Exercise: Number 1";
-include "header.php" ?>
-
-
-
-
-
+ ?>
+<body>  
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Restaurant Menu</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            background-color: black;
-            color: blue;
-            padding: 20px;
-        }
-
-        h1 {
-            margin: 0;
-            text-align: center;
-            background-color: black;
-        }
-
-        .menu-container {
-            max-width: 800px;
-            margin: 20px auto;
-        }
-
-        h2 {
-            margin-top: 30px;
-            margin-bottom: 20px;
-            color: white;
-        }
-
-        .menu-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            color: white;
-        }
-
-        .menu-list li {
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-
-        h3 {
-            margin-top: 0;
-        }
-
-        .menu-description {
-            margin-bottom: 10px;
-        }
-        .ocFeedbackButton {
-    min-width: 62px;
-    height: 28px;
-    font-family: "Segoe UI","Segoe UI Web","wf_segoe-ui_normal","Helvetica Neue",Helvetica,Tahoma,"BBAlpha Sans","S60 Sans",Arial,sans-serif;
-    font-size: 15px;
-    
-   
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid transparent;
-    
-    margin: 2px 5px 0 0;
-    padding: 3px 20px;
-}
-
-        .menu-price {
-            float: right;
-        }
-    
-
-
+	<title>Restaurant Menu</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			text-align: center;
+		}
+		.menu {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.menu-item {
+			width: 30%;
+			margin-bottom: 30px;
+			position: relative;
+			overflow: hidden;
+		}
+		.menu-item img {
+			max-width: 100%;
+			height: auto;
+		}
+		.menu-item .menu-item-text {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.7);
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			opacity: 0;
+			transition: opacity 0.3s ease-in-out;
+		}
+		.menu-item:hover .menu-item-text {
+			opacity: 1;
+		}
+		.menu-item .menu-item-text h2 {
+			font-size: 24px;
+			margin: 0;
+		}
+		.menu-item .menu-item-text p {
+			font-size: 16px;
+			margin: 0;
+			text-align: center;
+		}
+		@media screen and (max-width: 767px) {
+			.menu-item {
+				width: 100%;
+			}
+		}
+	</style>
 </head>
-
 <body>
-    <header>
-        <h1>Restaurant Menu</h1>
-    </header>
+	<div class="container">
+		<h1>Our Menu</h1>
+		<div class="menu">
+			<div class="menu-item">
+				<img src="img/item1.png" alt="Item 1">
+				<div class="menu-item-text">
+					<h2>Item 1</h2>
+					<p>Description of Item 1</p>
+				</div>
+			</div>
+			<div class="menu-item">
+				<img src="img/item2.jpg" alt="Item 2">
+				<div class="menu-item-text">
+					<h2>Item 2</h2>
+					<p>Description of Item 2</p>
+				</div>
+			</div>
+			<div class="menu-item">
+				<img src="img/item3.jpg" alt="Item 3">
+				<div class="menu-item-text">
+					<h2>Item 3</h2>
+					<p>Description of Item 3</p>
+				</div>
+			</div>
+			<div class="menu-item">
+				<img src="img/item4.jpg" alt="Item 4">
+				<div class="menu-item-text">
+					<h2>Item 4</h2>
+					<p>Description of Item 4</p>
+				</div>
+			</div>
+			<div class="menu-item">
+</body>
 
-    <section class="menu-container">
-        <h2>Appetizers</h2>
-        <ul class="menu-list">
-            <li>
-                <h3>Garlic Bread</h3>
-                <p class="menu-description">Toasted bread with garlic and butter</p>
-                <span class="menu-price">$5.99</span>
-            </li>
-            <li>
-                <h3>Caprese Salad</h3>
-                <p class="menu-description">Fresh mozzarella, tomatoes, and basil with balsamic glaze</p>
-                <span class="menu-price">$7.99</span>
-            </li>
-        </ul>
-
-        <h2>Entrees</h2>
-        <ul class="menu-list">
-            <li>
-                <h3>Chicken Alfredo</h3>
-                <p class="menu-description">Fettuccine pasta in a creamy Alfredo sauce with grilled chicken</p>
-                <span class="menu-price">$12.99</span>
-            </li>
-            <li>
-                <h3>Grilled Salmon</h3>
-                <p class="menu-description">Fresh salmon fillet grilled to perfection with lemon butter sauce</p>
-                <span class="menu-price">$15.99</span>
-            </li>
-        </ul>
-
-        <h2>Desserts</h2>
-        <ul class="menu-list">
-
-            <li>
-                <h3>Chocolate Brownie Sundae</h3>
-                <p class="menu-description">Warm chocolate brownie topped with vanilla ice cream and hot fudge</p>
-                <span class="menu-price">$6.99</span>
-            </li>
-            <li>
-                <h3>Crème Brûlée</h3>
-                <p class="menu-description">Rich and creamy vanilla custard with caramelized sugar topping</p>
-                <span class="menu-price">$7.99</span>
-
-            </li>
-        </ul>
-
-    </section>
-
-
-    </style>
-    <div id="ocFooterWrapper">
+</html>
+<div id="ocFooterWrapper">
  <div id="supWrapperToPreventFeedbackFlickering" data-enable-star-rating="False">
   <section id="supFeedbackWrapper" class="prrFeedbackWrapper">
  <div id="supColumnWrapper" class="prrFeedbackWrapper">
@@ -167,9 +135,3 @@ include "header.php" ?>
 
 
 
-</body>
-
-</html>
-<?php include "footer.php" ?>
-=======
->>>>>>> 56b2fceeec6492c4f2386a3949191002f77612d3
