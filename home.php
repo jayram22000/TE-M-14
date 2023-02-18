@@ -1,8 +1,5 @@
-
-
-
-   <body>
-        <style>
+<?php include "header1.php" ?>   <!-- universal footer !-->
+ <style>
   /* Set the font family and size for all elements */
   body{
     background-color:none;
@@ -75,4 +72,4 @@
         </div>
     </div>
 
-<?php include "footer.php" ?>   <!-- universal footer !-->
+<?php include "footer1.php" ?>   <!-- universal footer !-->
