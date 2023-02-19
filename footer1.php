@@ -90,24 +90,11 @@
     padding-bottom: 5rem;
     position: inline;
   }
-/*
-.flex-container > div {
-  background-color: transparent;
-  margin: 3px;
-  padding: 1rem;
-  font-size: 30px;
-  }
-
- .icon {
-  background-color: transparent;
-  margin: 1rem;
-  padding: 0.25rem;
-  font-size: 1rem;
-  float: left;
-  }*/
 
   .row {
   box-sizing: border-box;
+  width: auto;
+  height: 15%;
   background-color: grey;
   }
 
