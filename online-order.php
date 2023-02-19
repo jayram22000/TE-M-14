@@ -1,9 +1,9 @@
 
-<?php include "header1.php" ?>
 <style>
-    * {
+    body {
         padding: 0;
         margin: 0;
+        background-image: url(TE-M-14\food.jpg);
         font-family: sans-serif;
     }
     body {
