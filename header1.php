@@ -71,16 +71,16 @@
                         <a class="nav-link" href="home.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="menu.php">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="aboutus.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Online Order</a>
+                        <a class="nav-link" href="online-order.php">Online Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Opening Hour</a>
+                        <a class="nav-link" href="">Opening Hour</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gift Card</a>
