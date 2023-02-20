@@ -1,4 +1,4 @@
-
+<?php include "header1.php" ?>
 <style>
     body {
         padding: 0;
@@ -13,17 +13,6 @@
         background-size: cover;
     }
 
-    .container{
-        width: 100;
-        height:100vh;
-        background: orange;
-        position:relative;
-    }
-    .box{
-        width: 900px;
-        float: right;
-
-    }
 
   .box ul li{
         width: 130px;
