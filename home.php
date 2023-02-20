@@ -2,7 +2,8 @@
  <style>
   /* Set the font family and size for all elements */
   body{
-      background-color:none;
+    background-color:none;
+      font-family: latha;
       color:white;
       background:url(food.jpg)no-repeat;
       background-size: cover;
@@ -13,45 +14,38 @@ h1 {
   font-size: 3rem;
   text-align: center;
   margin-top: 2rem;
-  color: grey;
-  background:transparent;
+  color: orange;
 }
 
 /* Style the carousel container */
 .carousel {
-  margin-top: 1.5rem;
-  background:transparent;
+  margin-top: 2rem;
 }
 
 /* Style the carousel indicators */
 .carousel-indicators li {
-  background-color: none;
-  
+  background-color: #999;
 }
 
 .carousel-indicators li.active {
   background-color: #333;
-
 }
 
 /* Style the carousel caption text */
 .carousel-caption h5 {
   font-size: 2rem;
   font-weight: bold;
-  background-color: transparent;
 }
 
 .carousel-caption p {
   font-size: 1.5rem;
-  background-color: transparent;
 }
 
 /* Style the description text */
 .col-md-8 h4 {
   font-size: 1.2rem;
   line-height: 2rem;
-  color:grey;
-  background-color: transparent;
+  color:white;
 }
 
 /* Style the reservation heading */
@@ -59,7 +53,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
-  color: grey;
+  color: whitesmoke;
 }
 
 /* Style the reservation button */
@@ -73,22 +67,20 @@ h1 {
 }
 
 .opt form button:hover {
-  background-color: transparent;
+  background-color: #555;
 }
 img {
   max-width: 100%;
   height: 5%;
 }
   .carousel-item img {
-  max-height: 350px;
+  max-height: 400px;
   width: 40%;
   margin: 10%;
 }
-.bcontainer{
-  background:transparent;
-}
 
 </style>
+<body>
 <div class="bcontainer">
   <h1 class="mt-5">Welcome</h1>
 
@@ -140,11 +132,12 @@ img {
       <h2 class="mt-4">Reservation</h2>
       <div class="opt mt-4">
         <form action="" method="post">
-          <button class="btn btn-primary" type="submit">Book Table</button>
+          <button class="btn btn-primary" type="submit">Book  Table</button>
         </form>
       </div>
     </div>
   </div>
 </div>
+</body>
 
-<?php include "footer1.php" ?>   <!-- universal footer !-->
+<?php include "footer1.php" ?>

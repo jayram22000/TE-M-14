@@ -2,7 +2,7 @@
 <style>
 /* Footer Styles */
 .body{
-  background:black;
+  background:none;
 
 }
 
@@ -90,32 +90,12 @@
     padding-bottom: 5rem;
     position: inline;
   }
-/*
-.flex-container > div {
-  background-color: transparent;
-  margin: 3px;
-  padding: 1rem;
-  font-size: 30px;
-  }
-
- .icon {
-  background-color: transparent;
-  margin: 1rem;
-  padding: 0.25rem;
-  font-size: 1rem;
-  float: left;
-  }*/
-
-  .row {
-  box-sizing: border-box;
-  background-color: grey;
-  }
-
 /* Created three equal columns that float next to each other */
 .column{
   float: left;
   width: 33.33%;
-  padding: 65px;
+  padding: 50px;
+  margin:10%;
 }
 
 /* Clear floats after the columns */
@@ -125,6 +105,7 @@
   clear: both;
 }
 </style>
+<body>
 <footer>
 
   
@@ -143,14 +124,12 @@
             <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </div>
           </ul>
-          <!--<div class="flex-container3">
-          <p> <a class="navbar-brand" href=""><img src="logo.png" alt="Salsa Restaurants"></p>
-          </div>-->
+      
         </div>
       
       <div class="column">
           <h4>Contact Us</h4>
-          <p>Email:salsarestaurant@gmail.com</p>
+          <p>salsarestaurant@gmail.com</p>
           <p>Phone:123-456-7890</p>
           <p><?php echo date('F j, Y, g:i a');?></p>
           
@@ -158,9 +137,6 @@
       <div class="column">   
           <h4>Find Us</h4>
           <p>13100,Hämeenlinna FINLAND</p>
-          <div class="map-responsive"> 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30677.13959557388!2d23.995459099999998!3d61.278440700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ee59e7dd29a31%3A0xf511c3e7a9213906!2sS-Market%20Superi!5e0!3m2!1ssv!2sfi!4v1676457121365!5m2!1ssv!2sfi" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
       </div>   
     </div>
 
