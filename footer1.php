@@ -100,6 +100,7 @@
       <div class="column">
           <h4>Contact Us</h4>
           <p>Phone:123-456-7890</p>
+          <p>salsarestaurants@gmail.com</p>
          
           
       </div>
