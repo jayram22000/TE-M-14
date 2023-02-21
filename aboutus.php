@@ -2,7 +2,6 @@
 <style>
       body{
           font-family: latha;
-          
           background:url(food.jpg)no-repeat;
           background-size: cover;
       }
