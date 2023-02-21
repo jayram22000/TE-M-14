@@ -1,137 +1,100 @@
 
-<?php
-$title = "Exercise: Number 1";
- ?>
-<body>  
-<!DOCTYPE html>
-<html>
-<head>
+
+
+
 	<title>Restaurant Menu</title>
 	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		.container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 20px;
-		}
-		h1 {
-			text-align: center;
-		}
-		.menu {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			align-items: center;
-			margin-top: 20px;
-		}
-		.menu-item {
-			width: 30%;
-			margin-bottom: 30px;
-			position: relative;
-			overflow: hidden;
-		}
-		.menu-item img {
-			max-width: 100%;
-			height: auto;
-		}
-		.menu-item .menu-item-text {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background-color: rgba(0, 0, 0, 0.7);
-			color: #fff;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			opacity: 0;
-			transition: opacity 0.3s ease-in-out;
-		}
-		.menu-item:hover .menu-item-text {
-			opacity: 1;
-		}
-		.menu-item .menu-item-text h2 {
-			font-size: 24px;
-			margin: 0;
-		}
-		.menu-item .menu-item-text p {
-			font-size: 16px;
-			margin: 0;
-			text-align: center;
-		}
-		@media screen and (max-width: 767px) {
-			.menu-item {
-				width: 100%;
-			}
-		}
-	</style>
+	.container {
+	margin: 2;
+	width: 30%;
+}
+.title{
+	color: yellow;
+}
+
+h1 {
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.menu-item {
+	width: 35%;
+	margin-bottom: 50px;
+}
+
+.menu-item img {
+	display:block;
+	margin: 2;
+	
+}
+
+.menu-item h3 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.menu-item p {
+	margin-top: 10px;
+	text-align: center;
+}
+</style>
+
 </head>
 <body>
 	<div class="container">
-		<h1>Our Menu</h1>
+		<h1>Salsa Restaurant Menu</h1>
 		<div class="menu">
 			<div class="menu-item">
-				<img src="img/item1.png" alt="Item 1">
-				<div class="menu-item-text">
-					<h2>Item 1</h2>
-					<p>Description of Item 1</p>
-				</div>
+				<img src="https://images.unsplash.com/photo-1570197571499-166b36435e9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FsYWRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Salmon Avocado Salad">
+				<p>£4,20</p>
+				<h3>Salmon Avocado Salad</h3>
+				
 			</div>
 			<div class="menu-item">
-				<img src="img/item2.jpg" alt="Item 2">
-				<div class="menu-item-text">
-					<h2>Item 2</h2>
-					<p>Description of Item 2</p>
-				</div>
+				<img src="https://images.unsplash.com/photo-1611171711925-92171c63fc4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNhbGFkc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Mixed Green Salad with apple and Goat Cheese">
+				<p>£3,99</p>
+				<h3>Mixed Green Salad with apple and Goat Cheese</h3>
+				
 			</div>
 			<div class="menu-item">
-				<img src="img/item3.jpg" alt="Item 3">
-				<div class="menu-item-text">
-					<h2>Item 3</h2>
-					<p>Description of Item 3</p>
-				</div>
+				<img src="https://images.unsplash.com/photo-1568158879083-c42860933ed7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNhbGFkc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Mixed Green Salad with apple and Goat Cheese">
+				<p>£5,99</p>
+				<h3>Mixed Green Salad with apple and Goat Cheese</h3>
+							</div>
+			<div class="menu-item">
+				<img src="https://images.unsplash.com/photo-1655536259633-05170abf4b8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Lemon Balm Popsicles">
+				<p>£4,99</p>
+				<h3>Lemon Balm Popsicles</h3>
+				
 			</div>
 			<div class="menu-item">
-				<img src="img/item4.jpg" alt="Item 4">
-				<div class="menu-item-text">
-					<h2>Item 4</h2>
-					<p>Description of Item 4</p>
-				</div>
+				<img src="https://plus.unsplash.com/premium_photo-1671980819443-e8bbeec85840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Lemon Balm Popsicles">
+				<p>£7,99</p>
+				<h3>Lemon Balm Popsicles</h3>
+				<p>Description of item 5</p>
 			</div>
 			<div class="menu-item">
+				<img src="https://images.unsplash.com/photo-1671637292704-bbc6fe8310a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ4fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Lemon Balm Popsicles">
+				<p>£7,99</p>
+				<h3>Lemon Balm Popsicles</h3>
+				<p>Description of item 6</p>
+			</div>
+		</div>
+	</div>
 </body>
-
 </html>
-<div id="ocFooterWrapper">
- <div id="supWrapperToPreventFeedbackFlickering" data-enable-star-rating="False">
-  <section id="supFeedbackWrapper" class="prrFeedbackWrapper">
- <div id="supColumnWrapper" class="prrFeedbackWrapper">
-   <div id="supFeedBackCountainer">
-   <section id="supFB" class="ocFB">
-   <div id="supFBCont">
-   <form action="javascript:void(0);" id="extendedFeedbackForm" name="smartFeedbackForm"
-    class="smartFeedbackForm supStickyFeedbackMarginBottom">
-    <div class="ocSmartFeedbackBegin extendedFeedbackArticleInfoUseful" role="region"
-  aria-label="provide feedback about this article">
-    <h2 id="beginFeedbackHeader" class="boldFont extendedFeedbackHeader"> was the
-    service good?</h2>
-   <div class="feedbackButtons" role="group" aria-labelledby="beginFeedbackHeader">
-    <button
-    class="ocFeedbackButton supStickyFeedbackBotton feedbackSelection feedbackButtonBlue"
-    name="buttonYes" type="button" data-bi-id="buttonYes"
- data-bi-mto>Yes</button>
- <button
-    class="ocFeedbackButton supStickyFeedbackBotton feedbackSelection feedbackButtonBlue"
-  name="buttonNo" type="button" data-bi-id="buttonNo"
-  data-bi-mto>No</button>
-   </div>
-   </div>
+
+			
+
+<?php include "footer1.php"
+?>
+
 
 
 
