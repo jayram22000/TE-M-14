@@ -1,18 +1,12 @@
 <?php include "header1.php" ?>
-<style>
-    body {
-        padding: 0;
-        margin: 0;
-        background-image: url(TE-M-14\food.jpg);
-        font-family: sans-serif;
-    }
-    body {
-        font-family: latha;
-       
-        background: url(food.jpg)no-repeat;
-        background-size: cover;
-    }
-
+<style> 
+ body{
+      background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
+  }
 
   .box ul li{
         width: 130px;
@@ -114,24 +108,6 @@
         color: orange;
 
     }
-
-    /*.wd h4 {
-        text-align: justify;
-        color: orange;
-        font-weight: normal;
-    }
-
-    .wd h2 {
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: normal;
-        margin: 40px auto;
-        color: orange;
-
-
-    }
-
-    */
 
     .field {
         width: 100%;
@@ -255,16 +231,8 @@ address{
                 <div class="right"></div>
                 <input type="text" class="field" placeholder="Your Name"><br>
                 <input type="text" class="field" placeholder="Your Email"><br>
-                <input type="text" class="field" placeholder="Phone"><br>
-                <button onclick="buttonColor()" id="button">Click</button>
-                <div class="dropdown">
-                <button class="dropbtn">Menu</button>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div>
+                
+               
                 <input type="text" class="field" placeholder="order here"><br>
                 
                 <input type="" class="field"></textarea><br>

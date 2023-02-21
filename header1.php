@@ -49,8 +49,8 @@
      
     }
     .navbar-nav .nav-link {
-      margin: 20px;
-      padding:20px;
+      margin: 10px;
+      padding:10px;
       font: 20px;
     }
 .container{

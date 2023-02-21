@@ -2,13 +2,10 @@
 <style>
 /* Footer Styles */
 .body{
-<<<<<<< HEAD
   background:black;
   font-style: italic;
-=======
   background:none;
 
->>>>>>> dff8fde68b9713e831693da51df7fb5f7d623002
 }
 
 .footer p {
@@ -104,7 +101,7 @@
           <h4>Contact Us</h4>
           <p>salsarestaurant@gmail.com</p>
           <p>Phone:123-456-7890</p>
-          <p><?php echo date('F j, Y, g:i a');?></p>
+         
           
       </div>
       <div class="column">   

@@ -2,14 +2,9 @@
  <style>
   /* Set the font family and size for all elements */
   body{
-<<<<<<< HEAD
       background-color:none;
-      font-style: italic;
-=======
-    background-color:none;
       font-family: latha;
       color:white;
->>>>>>> dff8fde68b9713e831693da51df7fb5f7d623002
       background:url(food.jpg)no-repeat;
       background-size: cover;
   }
