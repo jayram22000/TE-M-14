@@ -46,6 +46,7 @@
       height: 60px;
       margin: auto;
       background-color: transparent;
+      image color:grey;
      
     }
     .navbar-nav .nav-link {
