@@ -97,7 +97,6 @@
       
       <div class="column">
           <h4>Contact Us</h4>
-          <p>salsarestaurant@gmail.com</p>
           <p>Phone:123-456-7890</p>
           <p><?php echo date('F j, Y, g:i a');?></p>
           
