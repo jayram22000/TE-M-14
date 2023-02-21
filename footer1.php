@@ -90,12 +90,18 @@
     padding-bottom: 5rem;
     position: inline;
   }
+
+
+  .row {
+  box-sizing: border-box;
+  background-color: transparent;
+  }
+
 /* Created three equal columns that float next to each other */
 .column{
   float: left;
   width: 33.33%;
-  padding: 50px;
-  margin:10%;
+  padding: 65px;
 }
 
 /* Clear floats after the columns */
@@ -124,12 +130,12 @@
             <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </div>
           </ul>
-      
+        
         </div>
       
       <div class="column">
           <h4>Contact Us</h4>
-          <p>salsarestaurant@gmail.com</p>
+          <p>Email:salsarestaurant@gmail.com</p>
           <p>Phone:123-456-7890</p>
           <p><?php echo date('F j, Y, g:i a');?></p>
           
@@ -137,7 +143,8 @@
       <div class="column">   
           <h4>Find Us</h4>
           <p>13100,Hämeenlinna FINLAND</p>
-      </div>   
+    
+  </div>   
     </div>
 
 </footer>
