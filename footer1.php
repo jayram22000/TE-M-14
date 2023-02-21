@@ -3,7 +3,7 @@
 /* Footer Styles */
 .body{
   background:black;
-
+  font-style: italic;
 }
 
 .footer p {
