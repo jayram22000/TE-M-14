@@ -1,18 +1,12 @@
 <?php include "header1.php" ?>
-<style>
-    body {
-        padding: 0;
-        margin: 0;
-        background-image: url(TE-M-14\food.jpg);
-        font-family: sans-serif;
-    }
-    body {
-        font-family: latha;
-        color: white;
-        background: url(food.jpg)no-repeat;
-        background-size: cover;
-    }
-
+<style> 
+ body{
+      background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
+  }
 
   .box ul li{
         width: 130px;
@@ -115,24 +109,6 @@
 
     }
 
-    /*.wd h4 {
-        text-align: justify;
-        color: orange;
-        font-weight: normal;
-    }
-
-    .wd h2 {
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: normal;
-        margin: 40px auto;
-        color: orange;
-
-
-    }
-
-    */
-
     .field {
         width: 100%;
         border: 2px solid rgba(0, 0, 0, 0);
@@ -197,7 +173,57 @@ border-radius:50%;
 address{
   color: orange;
 }
+
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 </style>
+
+
 
 <body>
             <div class="Contact-box">
@@ -205,9 +231,11 @@ address{
                 <div class="right"></div>
                 <input type="text" class="field" placeholder="Your Name"><br>
                 <input type="text" class="field" placeholder="Your Email"><br>
-                <input type="text" class="field" placeholder="Phone"><br>
-                <input type="text" class="field" placeholder="order name here"><br>
-                <textarea placeholder="message" class="field"></textarea><br>
+                
+               
+                <input type="text" class="field" placeholder="order here"><br>
+                
+                <input type="" class="field"></textarea><br>
                 <button class="btn">ORDER</button>
             </div>
 </body>

@@ -1,5 +1,5 @@
 <?php
-$title="Newslette subscription form";
+$title="Newsletter subscription form";
 ?><br><br>
 
 <style>

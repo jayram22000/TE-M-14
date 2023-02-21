@@ -2,6 +2,8 @@
 <style>
 /* Footer Styles */
 .body{
+  background:black;
+  font-style: italic;
   background:none;
 
 }
@@ -98,7 +100,7 @@
       <div class="column">
           <h4>Contact Us</h4>
           <p>Phone:123-456-7890</p>
-          <p><?php echo date('F j, Y, g:i a');?></p>
+         
           
       </div>
       <div class="column">   

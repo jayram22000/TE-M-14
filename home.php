@@ -2,7 +2,7 @@
  <style>
   /* Set the font family and size for all elements */
   body{
-    background-color:none;
+      background-color:none;
       font-family: latha;
       color:white;
       background:url(food.jpg)no-repeat;
@@ -85,7 +85,7 @@ img {
   <h1 class="mt-5">Welcome</h1>
 
   <!-- Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>

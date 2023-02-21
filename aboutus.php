@@ -4,6 +4,7 @@
           font-family: latha;
           background:url(food.jpg)no-repeat;
           background-size: cover;
+            color: whitesmoke;
       }
 
   .wd {
@@ -14,7 +15,7 @@
   .wd p {
   text-align: center;
   font-weight: 100px;
-  color: rgb(210, 207, 207);
+
   }
 
   .wd h1{
@@ -22,12 +23,14 @@
   text-transform: uppercase;
   font-weight: normal;
   margin: 50px auto;
-  color: orange;   
+  color: orange; 
+  font-style: italic;  
   }       
 
 </style>
+<html>
+<body>
 
-  <body> 
     <div class="wd">
         <h1><b> GET TO KNOW US </b></h1>
         <p>Welcome to Salsa, a fully fledged restaurant specializing in deliveringa relaxed and memorable dining experience. 
@@ -45,6 +48,7 @@
             Salsa is part of Mandela Group of companies, the parent company to Foodhuband Mandela millers.
         </p>
     </div>
-  </body>
-</html> 
+  
+</body> 
+</html>
 <?php include "footer1.php" ?>
