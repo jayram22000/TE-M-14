@@ -1,0 +1,306 @@
+
+  
+
+  /* Add hover effect to navbar links */
+  .navbar-nav .nav-link:hover {
+    color: rgb(195, 118, 17);
+  }
+  
+  /* Style the active navbar link */
+  .navbar-nav .nav-item.active .nav-link {
+    color: rgb(195, 118, 17);
+  }
+
+    /* Add hover effect to navbar links */
+    .navbar-nav .nav-link:hover {
+      color: rgb(195, 118, 17);
+    }
+    
+    /* Style the active navbar link */
+    .navbar-nav .nav-item.active .nav-link {
+      color: rgb(195, 118, 17);
+    }
+    
+    /* Style the restaurant logo */
+    .navbar-brand img {
+      width: 60px;
+      height: 60px;
+      margin: auto;
+      background-color: transparent;
+     
+    }
+    .navbar-nav .nav-link {
+      margin: 20px;
+      padding:20px;
+      font: 20px;
+    }
+.container{
+  margin:opx;
+  padding: 1px;
+}
+ /* Set the font family and size for all elements */
+ body{
+    background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
+  }
+
+  /* Style the welcome heading */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: orange;
+}
+
+/* Style the carousel container */
+.carousel {
+  margin-top: 2rem;
+}
+
+/* Style the carousel indicators */
+.carousel-indicators li {
+  background-color: #999;
+}
+
+.carousel-indicators li.active {
+  background-color: #333;
+}
+
+/* Style the carousel caption text */
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+/* Style the description text */
+.col-md-8 h4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color:white;
+}
+
+/* Style the reservation heading */
+.col-md-4 h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: whitesmoke;
+}
+
+/* Style the reservation button */
+.opt form button {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.opt form button:hover {
+  background-color: #555;
+}
+img {
+  max-width: 100%;
+  height: 5%;
+}
+  .carousel-item img {
+  max-height: 400px;
+  width: 40%;
+  margin: 10%;
+}
+
+   
+/* Footer Styles */
+.body{
+    background:none;
+  
+  }
+  
+  .footer p {
+    color:silver;
+    margin-bottom: 20px;
+    margin:0;
+    font-size:15px;
+  }
+  
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a {
+    color: auto;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1rem;
+    border-radius: 30%;
+    width: 5rem;
+    height: auto;
+    text-align: center;
+  
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+  
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 50%;
+    position: absolute;
+  
+  }
+  
+  
+    .footer {
+      text-align: center;
+    
+    }
+  
+    .map-responsive {
+      margin-bottom: 10px;
+      overflow: hidden;
+      padding-bottom: 40%;  /* adjust this value to your desired size */
+      position: relative;
+    
+    }
+  
+  
+  .navbar-brand img {
+      width: 3rem;
+      height: auto;
+      margin: auto;
+      background-color: transparent;
+     
+     }
+  
+    .flex-container {
+  
+    background-color: transparent;
+    position: inline-start;
+    }
+  
+    .flex-container2 {
+    padding-bottom: 5rem;
+    background-color: transparent;
+    position: inline;
+    }
+  
+    .flex-container3 {
+      padding-bottom: 5rem;
+      position: inline;
+    }
+
+    .row {
+    box-sizing: border-box;
+    background-color: transparent;
+    }
+  
+  /* Created three equal columns that float next to each other */
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 65px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } /* Set the font family and size for all elements */
+  body{
+    background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
+  }
+
+  /* Style the welcome heading */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: orange;
+}
+
+/* Style the carousel container */
+.carousel {
+  margin-top: 2rem;
+}
+
+/* Style the carousel indicators */
+.carousel-indicators li {
+  background-color: #999;
+}
+
+.carousel-indicators li.active {
+  background-color: #333;
+}
+
+/* Style the carousel caption text */
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+/* Style the description text */
+.col-md-8 h4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color:white;
+}
+
+/* Style the reservation heading */
+.col-md-4 h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: whitesmoke;
+}
+
+/* Style the reservation button */
+.opt form button {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.opt form button:hover {
+  background-color: #555;
+}
+img {
+  max-width: 100%;
+  height: 5%;
+}
+  .carousel-item img {
+  max-height: 400px;
+  width: 40%;
+  margin: 10%;
+}
