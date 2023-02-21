@@ -80,7 +80,7 @@
                         <a class="nav-link" href="online-order.php">Online Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Opening Hour</a>
+                        <a class="nav-link" href="opening.php">Opening Hour</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gift Card</a>

@@ -11,6 +11,7 @@
   margin-bottom: 20px;
   margin:0;
   font-size:15px;
+  text-align: center;
 }
 
 
@@ -34,45 +35,6 @@
   text-align: center;
 
 }
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: auto;
-  width: 50%;
-  position: absolute;
-
-}
-
-
-  .footer {
-    text-align: center;
-  
-  }
-
-  .map-responsive {
-    margin-bottom: 10px;
-    overflow: hidden;
-    padding-bottom: 40%;  /* adjust this value to your desired size */
-    position: relative;
-  
-  }
-
-
-.navbar-brand img {
-    width: 3rem;
-    height: auto;
-    margin: auto;
-    background-color: transparent;
-   
-   }
 
   .flex-container {
 
@@ -102,6 +64,7 @@
   float: left;
   width: 33.33%;
   padding: 65px;
+  margin:10;
 }
 
 /* Clear floats after the columns */
@@ -111,7 +74,6 @@
   clear: both;
 }
 </style>
-<body>
 <footer>
 
   
@@ -119,7 +81,7 @@
       <div class="column">
           
         <ul class="social-icons">
-          <h4>Follow us</h4> 
+          <h4>Follow Us</h4> 
             
             <div class="flex-container">
             <li><a href="https://www.facebook.com/your-restaurant" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -135,7 +97,7 @@
       
       <div class="column">
           <h4>Contact Us</h4>
-          <p>Email:salsarestaurant@gmail.com</p>
+          <p>salsarestaurant@gmail.com</p>
           <p>Phone:123-456-7890</p>
           <p><?php echo date('F j, Y, g:i a');?></p>
           
@@ -143,10 +105,9 @@
       <div class="column">   
           <h4>Find Us</h4>
           <p>13100,Hämeenlinna FINLAND</p>
-    
+          <p><?php echo date('F j, Y, g:i a');?></p>
   </div>   
     </div>
 
 </footer>
-  </body>
 </html>
