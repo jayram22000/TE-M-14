@@ -83,15 +83,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="opening.php">Opening Hour</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gift Card</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Catering</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">The Event Loft</a>
-                    </li>
+                   
                     <!-- Language selection drop-down -->
                     <li class="nav-item">
                         <select id="language-selector" onchange="changeLanguage()" class="nav-link">
