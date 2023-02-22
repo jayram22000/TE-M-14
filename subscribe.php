@@ -1,13 +1,19 @@
-<?php
-$title="Newsletter subscription form";
-?><br><br>
+
+<?php include "header1.php" ?> 
+
 
 <style>
-    body{color:grey;
-         text-align: center;
-         }
+      body{
+      background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
+  }
 
 </style>
+<>
+<body>
 <form action="subscribe.php" method="POST">
   <label for="email">Subscribe to our newsletter:</label>
   <input type="email" name="email" id="email" required>
