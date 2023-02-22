@@ -1,11 +1,12 @@
 <?php include "header1.php" ?>
 <style>
-      body{
-          font-family: latha;
-          background:url(food.jpg)no-repeat;
-          background-size: cover;
-            color: whitesmoke;
-      }
+    body{
+      background-color:none;
+      font-family: latha;
+      color:white;
+      background:url(food.jpg)no-repeat;
+      background-size: cover;
+  }
 
   .wd {
       width: 90%;
@@ -47,8 +48,50 @@
             We’re growing and may soon open a location closer to you. We look forward to serving you,You’re more than welcome to Find us here.
             Salsa is part of Mandela Group of companies, the parent company to Foodhuband Mandela millers.
         </p>
-    </div>
+    </div><br><br>
+
+    <style>
+
+    body
+  {
+      text-align: center;
+  }
+  </style>
   
-</body> 
-</html>
+  <form action="subscribe.php" method="POST">
+  <label for="email">Subscribe to our newsletter:</label>
+  <input type="email" name="email" id="email" required>
+  <button type="submit" name="submit">Subscribe</button>
+  <input type="hidden" name="unsubscribe" value="<?php echo htmlspecialchars($email); ?>">
+  <button type="submit" name="unsubscribe">Unsubscribe</button>
+</form>
+
+<br><br>
+
+<?php
+
+if (isset($_POST['unsubscribe'])) {
+  // Get the email address from the form
+  $email = $_POST['unsubscribe'];
+
+  // Remove the email address from the file or database
+  $subscribers = file("subscribers.txt", FILE_IGNORE_NEW_LINES);
+  $subscribers = array_filter($subscribers, function($subscriber) use ($email) {
+    return $subscriber !== $email;
+  });
+  file_put_contents("subscribers.txt", implode("\n", $subscribers));
+
+  // Send a confirmation email to the subscriber
+  $subject = "Unsubscribe from our newsletter";
+  $message = "Hello,\n\nYou have been unsubscribed from our newsletter. We're sorry to see you go.\n\nBest regards,\nRestaurant Team";
+  $headers = "From: restaurant@example.com\r\n";
+  mail($email, $subject, $message, $headers);
+
+  // Redirect to the same page to clear the form
+  header("Location: " . $_SERVER['PHP_SELF']);
+  exit;
+}
+
+ 
+?>
 <?php include "footer1.php" ?>
