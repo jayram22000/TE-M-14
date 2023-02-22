@@ -4,7 +4,7 @@
   body{
       background-color:none;
       font-family: latha;
-      color:white;
+      color:whitesmoke;
       background:url(food.jpg)no-repeat;
       background-size: cover;
   }
@@ -14,7 +14,7 @@ h1 {
   font-size: 3rem;
   text-align: center;
   margin-top: 2rem;
-  color: orange;
+  color:whitesmoke;
 }
 
 /* Style the carousel container */
@@ -45,7 +45,7 @@ h1 {
 .col-md-8 h4 {
   font-size: 1.2rem;
   line-height: 2rem;
-  color:white;
+  color:whitesmoke;
 }
 
 /* Style the reservation heading */
