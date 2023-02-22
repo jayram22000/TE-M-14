@@ -3,7 +3,7 @@
 
 <title>Restaurant Menu</title>
 <style>
-	.container {
+	.menu.container {
 		width: 100%;
 	}
 
@@ -72,7 +72,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="menu.container">
 		<h1>Salsa Restaurant Menu</h1>
 		<div class="menu">
 			<div class="menu-item">
