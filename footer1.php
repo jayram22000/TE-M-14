@@ -81,10 +81,10 @@
   
     <div class="row">
       <div class="column">
-          
+           
         <ul class="social-icons">
-          <h4>Follow Us</h4> 
-            
+         
+        <h3>Follow Us</h3>     
             <div class="flex-container">
             <li><a href="https://www.facebook.com/your-restaurant" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/your-restaurant" target="_blank"><i class="fa fa-instagram"></i></a></li>

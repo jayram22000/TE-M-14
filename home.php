@@ -79,6 +79,10 @@ img {
   margin: 10%;
 }
 
+.btn.btn-primary{
+  text-decoration: none;
+  color: #fff;
+}
 </style>
 <body>
 <div class="bcontainer">
@@ -132,7 +136,7 @@ img {
       <h2 class="mt-4">Reservation</h2>
       <div class="opt mt-4">
         <form action="" method="post">
-          <button class="btn btn-primary" type="submit">Book  Table</button>
+          <button class="btn btn-primary" type="submit"><a href="opening.php">Book  Table</button>
         </form>
       </div>
     </div>
