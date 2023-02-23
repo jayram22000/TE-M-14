@@ -13,5 +13,4 @@ if ($conn->connect_error) {
   $sql = "INSERT INTO reservation (name, email, phone, date)
   VALUES ('$name', '$email', '$phone', '$date')";
 
-
 ?>
