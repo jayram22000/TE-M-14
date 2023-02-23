@@ -1,10 +1,12 @@
 <?php include "header1.php" ?>
+<title><?php echo $title="aboutus" ?></title>
+
 <style>
     body{
       background-color:none;
       font-family: latha;
       color:white;
-      background:url(food.jpg)no-repeat;
+      background:url(image/food.jpg)no-repeat;
       background-size: cover;
   }
 

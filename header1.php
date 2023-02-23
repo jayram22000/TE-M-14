@@ -62,7 +62,7 @@
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Salsa<img src="logo.png" alt="logo">Restaurant</a>
+            <a class="navbar-brand" href="#">Salsa<img src="image/logo.png" alt="logo">Restaurant</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

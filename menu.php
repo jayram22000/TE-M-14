@@ -1,14 +1,13 @@
 <?php include "header1.php" ?>
+<title><?php echo $title="menu" ?></title>
 
-
-<title>Restaurant Menu</title>
 <style>
 	.menu.container {
 		width: 100%;
 	}
 
 	body {
-		background-image: url("food.jpg");
+		background-image: url("image/food.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: white;
