@@ -32,14 +32,28 @@
   }       
   
 button[type="submit"] {
-  background-color: #4CAF50;
-  color:blue;
+  background-color: #black;
+  color:white;
   font-size: 16px;
   padding: 10px;
-  border: none;
-  border-radius: 4px;
+  border: red;
+  border-radius: 2px;
   cursor: pointer;
+  border: 5px solid #ccc;
+  background-color: blue;
+  
 }
+
+input[type="email"] {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 5px solid #ccc;
+  border-radius: 2px;
+ 
+}
+
+
 </style>
 <html>
 <body>
