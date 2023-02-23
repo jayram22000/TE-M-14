@@ -30,7 +30,16 @@
   color: darkgrey; 
   font-style: italic;  
   }       
-
+  
+button[type="submit"] {
+  background-color: #4CAF50;
+  color:blue;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 </style>
 <html>
 <body>
