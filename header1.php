@@ -61,7 +61,6 @@
     </style>
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-<<<<<<< Updated upstream
         <div class="container">
             <a class="navbar-brand" href="#">Salsa<img src="image/logo.png" alt="logo">Restaurant</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,70 +93,6 @@
                         </select>
                     </li>
                 </ul>
-=======
-      <div class="container">
-        <a class="navbar-brand" href="">Salsa<img src="logo.png">Restaurant</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-auto mb-lg-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="home.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.php">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Online Order</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Opening Hours</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Gift card</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Catering</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">The Event Loft</a>
-          </li>
-                        <!-- Language selection drop-down -->
-                         <li class="nav-item">
-                            <a class="nav-link">
-                                <select id="language-selector" onchange="changeLanguage()">
-                                <div>
-                                    <option value="en" selected>English</option>
-                                    <option value="sv">Svenska</option>
-                                    <option value="fi">Suomi</option>
-                                </div>
-                            </a>
-                    </ul>
-            </div>   
-            <!-- just a normal langauage switcher function  -->
-                <script> // use script instead of form
-                    function changeLanguage() {
-                        var selectedLanguage = document.getElementById("language-selector").value;
-                        switch (selectedLanguage) {
-                            case "en":
-                                window.location.href = "https://www.hamk.fi/?lang=en"; // link with hamk university link in english 
-                                break;
-                            case "sv":
-                                window.location.href = "https://www.hamk.fi/?lang=sv";// link with hamk university link in swedish
-                                break;
-                            case "fi":
-                                window.location.href = "https://www.hamk.fi/?lang=fi";// link with hamk university link in suomi
-                                break;
-                            default:
-                                break;
-                        }
-                    }
-                </script>
->>>>>>> Stashed changes
             </div>
         </div>
     </nav>
