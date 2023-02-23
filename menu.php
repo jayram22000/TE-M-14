@@ -3,19 +3,19 @@
 
 <style>
 
-<<<<<<< Updated upstream
+
 	body {
 		background-image: url("image/food.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: white;
 	}
-=======
+
 /* Center the header */
 h1 {
   text-align: center;
 }
->>>>>>> Stashed changes
+
 
 /* Add spacing between items */
 .card {
