@@ -43,6 +43,7 @@ h1 {
 /* Style the text inside the cards */
 .card-text, .card-title {
   font-size: 18px;
+  color:black;
 }
 
 /* Style the cards on small devices */
@@ -89,7 +90,7 @@ h1 {
           <div class="card">
             <img src="image/food3.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">€4.99</h5>
+              <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
               <a href="#" class="btn btn-primary">Order Now</a>
             </div>
