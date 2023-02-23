@@ -239,5 +239,6 @@ address{
                 <button class="btn">ORDER</button>
             </div>
 </body>
+<br><br>
 <?php include "footer2.php" ?>
 
