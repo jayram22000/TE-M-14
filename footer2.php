@@ -37,11 +37,12 @@
 
 }
 
-.row {
+.row1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -1rem;
+  margin: 0rem;
+  background-color: black;
 }
 
 .column{
@@ -58,7 +59,7 @@
 
 </style>
 <footer>
-  <div class="row">
+  <div class="row1">
     <div class="column">
       <h3>Follow Us</h3>
       <ul class="social-icons">
