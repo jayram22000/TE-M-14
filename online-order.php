@@ -237,5 +237,6 @@ address{
     <input type="date" id="date" name="date"><br><br>
     <input type="submit" value="Submit">   
 </body>
-<?php include "footer1.php" ?>
+<br><br>
+<?php include "footer2.php" ?>
 
