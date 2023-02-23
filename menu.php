@@ -11,13 +11,6 @@
 		color: white;
 	}
 =======
-    body{
-      background-color:none;
-      font-family: latha;
-      color:whitesmoke;
-      background:url(food.jpg)no-repeat;
-      background-size: cover;
-  }
 /* Center the header */
 h1 {
   text-align: center;
@@ -118,8 +111,8 @@ h1 {
           <div class="card">
             <img src="image/food3.jpg" class="card-img-top" alt="Image 4">
             <div class="card-body">
-              <h5 class="card-title">Item 4</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">€5.99</h5>
+              <p class="card-text"> Salad</p>
               <a href="#" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -128,8 +121,8 @@ h1 {
           <div class="card">
             <img src="image/food4.jpg" class="card-img-top" alt="food6.jpg">
             <div class="card-body">
-              <h5 class="card-title">5</h5>
-              <p class="card-text"></p>
+              <h5 class="card-title">€6.99</h5>
+              <p class="card-text">leamon juice</p>
               <a href="" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -138,8 +131,8 @@ h1 {
           <div class="card">
             <img src="image/food5.jpg" class="card-img-top" alt="Image 5">
             <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Description of item 6.</p>
+              <h5 class="card-title">€3.99</h5>
+              <p class="card-text">Fruits juice</p>
               <a href="#" class="btn btn-primary">Order Now</a>
             </div>
           </div>
