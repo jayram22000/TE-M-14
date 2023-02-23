@@ -90,7 +90,7 @@ input[type="email"] {
 
   <p>
   For promotional new submit your email adress and subscribe using the buttons below:          
-</p>
+  </p>
   <form action="subscribe.php" method="POST">
   <label for="email">Subscribe to our newsletter:</label>
   <input type="email" name="email" id="email" required>
