@@ -18,6 +18,7 @@
   .wd p {
   text-align: center;
   font-weight: 100px;
+  color:whitesmoke;
 
   }
 
@@ -26,7 +27,7 @@
   text-transform: uppercase;
   font-weight: normal;
   margin: 50px auto;
-  color: orange; 
+  color: darkgrey; 
   font-style: italic;  
   }       
 
@@ -96,4 +97,4 @@ if (isset($_POST['unsubscribe'])) {
 
  
 ?>
-<?php include "footer2.php" ?>
+<?php include "footer1.php" ?>
