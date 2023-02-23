@@ -41,6 +41,9 @@ button[type="submit"] {
   cursor: pointer;
   border: 5px solid #ccc;
   background-color: blue;
+  color: white;
+  
+
   
 }
 
@@ -52,6 +55,7 @@ input[type="email"] {
   border-radius: 2px;
  
 }
+
 
 
 </style>
@@ -83,13 +87,17 @@ input[type="email"] {
       text-align: center;
   }
   </style>
-  
+
+  <p>
+  For promotional new submit your email adress and subscribe using the buttons below:          
+</p>
   <form action="subscribe.php" method="POST">
   <label for="email">Subscribe to our newsletter:</label>
   <input type="email" name="email" id="email" required>
   <button type="submit" name="submit">Subscribe</button>
   <input type="hidden" name="unsubscribe" value="<?php echo htmlspecialchars($email); ?>">
   <button type="submit" name="unsubscribe">Unsubscribe</button>
+  
 </form>
 
 <br><br>
