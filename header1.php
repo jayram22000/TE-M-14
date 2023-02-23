@@ -30,11 +30,6 @@
     color: rgb(195, 118, 17);
   }
 
-<<<<<<< HEAD
-  /* Add hover effect to navbar links */
-  .navbar-nav .nav-link:hover {
-    color: rgb(195, 118, 17);
-=======
     /* Add hover effect to navbar links */
     .navbar-nav .nav-link:hover {
       color: rgb(195, 118, 17);
@@ -69,7 +64,7 @@
     </style>
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-<<<<<<< Updated upstream
+
         <div class="container">
             <a class="navbar-brand" href="#">Salsa<img src="logo.png" alt="logo">Restaurant</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -165,7 +160,6 @@
                         }
                     }
                 </script>
->>>>>>> Stashed changes
             </div>
         </div>
     </nav>
