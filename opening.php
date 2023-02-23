@@ -4,7 +4,7 @@
       background-color:none;
       font-family: latha;
       color:white;
-      background:url(food.jpg)no-repeat;
+      background:url(image/food.jpg)no-repeat;
       background-size: cover;
   }
 

@@ -1,11 +1,12 @@
-<?php include "header1.php" ?>   <!-- universal footer !-->
+<?php include "header1.php" ?> 
+<title><?php echo $title="home" ?></title>  <!-- universal footer !-->
  <style>
   /* Set the font family and size for all elements */
   body{
       background-color:none;
       font-family: latha;
       color:whitesmoke;
-      background:url(food.jpg)no-repeat;
+      background:url(image/food.jpg)no-repeat;
       background-size: cover;
   }
 
@@ -79,10 +80,6 @@ img {
   margin: 10%;
 }
 
-.btn.btn-primary{
-  text-decoration: none;
-  color: #fff;
-}
 </style>
 <body>
 <div class="bcontainer">
@@ -97,21 +94,21 @@ img {
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="chi.jpeg" class="d-block w-100" alt="Slide 1">
+        <img src="image/chi.jpeg" class="d-block w-100" alt="Slide 1">
         <div class="carousel-caption d-none d-md-block">
           <h5>Chilaquiles</h5>
           <p>Mexican Rojos</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="taco.avif" class="d-block w-100" alt="Slide 2">
+        <img src="image/taco.avif" class="d-block w-100" alt="Slide 2">
         <div class="carousel-caption d-none d-md-block">
           <h5>Taco</h5>
           <p>Authentic Mexican</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="taco1.png" class="d-block w-100" alt="Slide 3">
+        <img src="image/taco1.png" class="d-block w-100" alt="Slide 3">
         <div class="carousel-caption d-none d-md-block">
           <h5>Fajita Pasta</h5>
           <p>Authentic Pasta</p>
@@ -136,7 +133,7 @@ img {
       <h2 class="mt-4">Reservation</h2>
       <div class="opt mt-4">
         <form action="" method="post">
-          <button class="btn btn-primary" type="submit"><a href="opening.php">Book  Table</button>
+          <button class="btn btn-primary" type="submit">Book  Table</button>
         </form>
       </div>
     </div>
