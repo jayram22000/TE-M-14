@@ -6,6 +6,7 @@
 
 	body {
 		background-image: url("image/food.jpg");
+    font-family:latha;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: white;
@@ -24,13 +25,15 @@ h1 {
 
 /* Style the order button */
 .btn-primary {
-  background-color: #f57f17;
+  background-color: aqua;
   border-color: #f57f17;
 }
 
 /* Add some spacing at the top */
 .container {
-  margin-top: 50px;
+  margin-top: opx;
+
+  padding: 1px;
 }
 
 /* Style the images to fit properly */
@@ -138,4 +141,5 @@ h1 {
             </div>
           </div>
         </div>
+        <br><br>
         <?php include "footer2.php" ?>
