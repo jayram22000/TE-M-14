@@ -3,26 +3,18 @@
 
 <style>
 
-<<<<<<< Updated upstream
-	body {
-		background-image: url("image/food.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: white;
-	}
-=======
+
     body{
       background-color:none;
       font-family: latha;
       color:whitesmoke;
-      background:url(food.jpg)no-repeat;
+      background:url(image/food.jpg)no-repeat;
       background-size: cover;
   }
 /* Center the header */
 h1 {
   text-align: center;
 }
->>>>>>> Stashed changes
 
 /* Add spacing between items */
 .card {
@@ -108,7 +100,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€2.99</h5>
               <p class="card-text">Juice</p>
-              <a href="#" class="btn btn-primary">Order Now</a>
+              <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -144,4 +136,4 @@ h1 {
             </div>
           </div>
         </div>
-        <?php include "footer1.php" ?>
+        <?php include "footer2.php" ?>
