@@ -12,7 +12,7 @@
   }
 
 </style>
-<>
+
 <body>
 <form action="subscribe.php" method="POST">
   <label for="email">Subscribe to our newsletter:</label>
@@ -38,5 +38,5 @@ if(isset($_POST['submit'])) {
   mail($email, $subject, $message, $headers);
 
 }
-include 'footer1.php';
+include 'footer2.php';
 ?>

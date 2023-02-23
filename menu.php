@@ -141,5 +141,4 @@ h1 {
             </div>
           </div>
         </div>
-        <br><br>
-        <?php include "footer2.php" ?>
+        <?php include "footer1.php" ?>

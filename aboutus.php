@@ -97,5 +97,4 @@ if (isset($_POST['unsubscribe'])) {
 
  
 ?>
-<br><br>
-<?php include "footer2.php" ?>
+<?php include "footer1.php" ?>
