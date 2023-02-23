@@ -31,7 +31,7 @@
   font-style: italic;  
   }       
   
-button[type="submit"] {
+.button[type="submit"] {
   background-color: #black;
   color:white;
   font-size: 16px;
@@ -41,10 +41,7 @@ button[type="submit"] {
   cursor: pointer;
   border: 5px solid #ccc;
   background-color: blue;
-  color: white;
-  
-
-  
+  color: white; 
 }
 
 input[type="email"] {
