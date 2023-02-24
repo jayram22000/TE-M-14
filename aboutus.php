@@ -56,7 +56,9 @@ button[name="submit"] {
 
 /* Hover effect for the "Subscribe" button */
 button[name="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: #black;
+  border: 5px;
+
 }
 
 /* Style for the "Unsubscribe" button */

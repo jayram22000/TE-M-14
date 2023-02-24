@@ -45,7 +45,7 @@
 
 <body>
 	<h1>BOOK time</h1>
-	<form method="post" action="submit.php">
+	<form method="post" action="">
 		<label for="date">Date:</label>
 		<input type="date" id="date" name="date" required><br><br>
 		<label for="time">Time:</label>
@@ -58,11 +58,36 @@
 	</form>
     <?php
 
+if(isset($_POST['submit'])) {
+  // Connect to the database
+  $servername = "db";
+  $username = "data2";
+  $password = "zack";
+  $dbname = "data2";
+  //creating connection
+  $conn = new mysqli($servername, $username, $password, $dbname);
+  // Check for connection errors
+  if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+  }
+  // Get form data
+  
 if(isset($_POST['submit'])){
 	$date = $_POST['date'];
 	$time = $_POST['time'];
 	$table_number = $_POST['table_number'];
 	$guest_number = $_POST['guest_number'];
 }
+  // Create SQL statement
+  $sql = "INSERT INTO booktime(name, time, table_number,guest_number) VALUES ('$name', '$time', '$table_number'$guest_number')";
+  // Execute SQL statement and check for errors
+  if ($conn->query($sql) === TRUE) {
+      echo "booking has been succesful";
+  } else{
+      echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+  // Close database connection
+  $conn->close();
+}
 ?>
-<?php include "footer2.php" ?>
+<?php include "footer2.php"?>
