@@ -8,6 +8,8 @@
       background-size: cover;
   }
 
+  
+
   .box ul li{
         width: 130px;
         float: right;
@@ -221,23 +223,22 @@ address{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
 </style>
 
 
 
 <body>
-            <div class="Contact-box">
-                <div class="left"></div>
-                <div class="right"></div>
-                <input type="text" class="field" placeholder="Your Name"><br>
-                <input type="text" class="field" placeholder="Your Email"><br>
-                <input type="text" class="field" placeholder="Your phone number"><br>
-               
-                <input type="text" class="field" placeholder="order here"><br>
-                
-                <input type="" class="field"></textarea><br>
-                <button class="btn">ORDER</button>
-            </div>
+<form action="add_reservation.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+    <input type="submit" value="Submit">   
 </body>
 <br><br>
 <?php include "footer2.php" ?>
