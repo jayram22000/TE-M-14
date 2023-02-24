@@ -231,7 +231,7 @@ address{
                 <div class="right"></div>
                 <input type="text" class="field" placeholder="Your Name"><br>
                 <input type="text" class="field" placeholder="Your Email"><br>
-                
+                <input type="text" class="field" placeholder="Your phone number"><br>
                
                 <input type="text" class="field" placeholder="order here"><br>
                 
