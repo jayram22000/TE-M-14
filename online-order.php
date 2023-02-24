@@ -31,7 +31,12 @@ if(isset($_POST['submit'])){
     include 'db.php';
     // Use the selected table name in the SQL query
     $sql = "INSERT INTO reservation(name,email,phone,date) values('$name','$email','$phone','$date')";
-
+    if($conn->query($sql) === TRUE){
+      echo "Reservation added successfully";
+  }
+  else{
+      echo "Error: " .$conn->error;
+  }
 }
 
 ?>
