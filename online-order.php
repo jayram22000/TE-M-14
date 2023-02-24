@@ -1,3 +1,5 @@
+
+
 <body>
 <!-- Make sure to set the form method to POST -->
 <form method="post" action="">
@@ -19,6 +21,18 @@
     </select><br><br>
     <input type="submit" name="submit" value="Submit">
 </form>
+<?php
+// Check if the submit button was clicked
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $date = $_POST['date'];
+    include 'db.php';
+
+}
+
+?>
 </body>
 
 
