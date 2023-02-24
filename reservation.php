@@ -17,3 +17,18 @@
     </select><br><br>
     <input type="submit" name="submit" value="Submit">
 </form>
+
+<?php
+// Check if the submit button was clicked
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $date = $_POST['date'];
+    include 'db.php';
+}
+
+ // Use the selected table name in the SQL query
+ $sql = "INSERT INTO reservation(name,email,phone,date) 
+ values('$name','$email','$phone','$date')";
+    ?>
