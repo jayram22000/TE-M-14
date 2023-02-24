@@ -20,8 +20,14 @@ h1 {
 
 /* Add spacing between items */
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
+}
+
+.card:hover {
+  -ms-transform: scale(1.10); /* IE 9 */
+  -webkit-transform: scale(1.10); /* Safari 3-8 */
+  transform: scale(1.10); 
 }
 
 /* Style the order button */
