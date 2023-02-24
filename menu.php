@@ -21,6 +21,7 @@ h1 {
 /* Add spacing between items */
 .card {
   margin-bottom: 20px;
+  
 }
 
 /* Style the order button */
@@ -81,12 +82,19 @@ h1 {
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
+          <span onmouseover="
+            this.style.backgroundColor='light-grey';
+            this.style.fontSize='2.5em'";
+            onmouseout="this.style.backgroundColor='whitesmoke';
+            this.style.backgroundColor='white';
+            this.style.fontSize='1.1em'";>
             <img src="image/food1.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
               <p class="card-text">Burger.</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
+          </span>
           </div>
         </div>
         <div class="col">

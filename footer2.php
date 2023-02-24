@@ -42,7 +42,8 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0rem;
-  background-color: black;
+  color: rgb(195, 118, 17);
+ 
 }
 
 .column{
