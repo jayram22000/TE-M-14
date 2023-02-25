@@ -1,5 +1,13 @@
 <?php include "header1.php" ?>
-
+<style>
+body{
+      background-color:none;
+      font-family: latha;
+      color:whitesmoke;
+      background:url(image/food.jpg)no-repeat;
+      background-size: cover;
+  }
+</style>
 <form method="post" action="">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
