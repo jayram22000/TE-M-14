@@ -63,6 +63,7 @@ h1 {
   }
   .card-text, .card-title {
     font-size: 16px;
+    text-align: center;
   }
 }
 
@@ -89,8 +90,15 @@ h1 {
     ?>
 
   <body>
-    <div class="container my-5">
-      <h1 class="text-center mb-5"> Salsa Restaurant Menu</h1>
+    <div class="container my-5">¨
+      <h1>Salsa Restaurant</h1>
+      <br><br>
+     
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);"> 
+    <a href="online-order.php" class="btn btn-primary">Order Now</a>
+  </h1>
+ 
+    <br><br>
       <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
           <div class="card">
@@ -98,7 +106,8 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="#top" class="btn btn-primary">Order Now</a>
+
             </div>
           </div>
         </div>
