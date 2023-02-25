@@ -1,3 +1,5 @@
+<?php include "header1.php" ?>
+
 <form method="post" action="">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
@@ -26,9 +28,20 @@ if(isset($_POST['submit'])){
     $phone = $_POST['phone'];
     $date = $_POST['date'];
     include 'db.php';
-}
 
  // Use the selected table name in the SQL query
  $sql = "INSERT INTO reservation(name,email,phone,date) 
  values('$name','$email','$phone','$date')";
-    ?>
+ if($conn->query($sql) === TRUE){
+    echo "Reservation added successfully";
+}
+else{
+    echo "Error: ".$conn->error;
+}
+$conn->close();
+
+}
+
+?>
+
+<?php include "footer2.php" ?>
