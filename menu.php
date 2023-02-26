@@ -95,7 +95,7 @@ h1 {
       <br><br>
      
     <h1 style="background-color:hsla(9, 100%, 64%, 0.5);"> 
-    <a href="online-order.php" class="btn btn-primary">Order Now</a>
+    <a href="online-order.php" class="btn btn-primary" input type="text" id="Order">Order</a>
   </h1>
  
     <br><br>
@@ -103,11 +103,16 @@ h1 {
       <div class="col">
           <div class="card">
             <img src="image/food3.jpg" class="card-img-top" alt="">
-            <div class="card-body">
+            <div class="card-body" input type="text" id="Order Now" value="Green Salad">
               <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
-              <a href="#top" class="btn btn-primary">Order Now</a>
-
+              <a href="#top" class="btn btn-primary" 
+              button onclick="myFunction()" >Order Now</a>
+              <script>
+              function myFunction() {
+              document.getElementById("Order").value = document.getElementById("Order Now").value;
+              }
+              </script> 
             </div>
           </div>
         </div>
