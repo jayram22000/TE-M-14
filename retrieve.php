@@ -89,5 +89,22 @@
 			<th>Phone</th>
 			<th>Date</th>
 		</tr>
+        <?php
+		// Retrieve orders data
+		$sql = "SELECT * FROM reservation";
+		$result = mysqli_query($conn, $sql);
+
+		if (mysqli_num_rows($result) > 0) {
+			while($row = mysqli_fetch_assoc($result)) {
+				echo "<tr>";
+                echo "<td>". $row["id"] . "<br>";
+                echo "<td>". $row["name"] . "<br>";
+                echo "<td>". $row["email"] . "<br>";
+                echo "<td>".$row["phone"] . "<br>";
+                echo "<td>". $row["date"] . "<br><br>";
+            }
+        } else {
+            echo "No reservation found.";
+        }
 </body>  
 </html>      
