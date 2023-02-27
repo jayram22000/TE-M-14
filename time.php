@@ -43,18 +43,9 @@
   }
 </style>
 
-<table>
-  <tr>
-    <th>Day</th>
-    <th>Opening Time</th>
-    <th>Closing Time</th>
-    <th>Book Time</th>
-  </tr>
-  <?php
-  $days = array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
-  $opening_times = array('10:00', '10:00', '10:00', '10:00', '10:00', '11:00', '11:00');
-  $closing_times = array('22:00', '22:00', '22:00', '22:00', '23:00', '23:00', '22:00');?>
-  <form method="post" action="">
+<body>
+	<h1>BOOK time</h1>
+	<form method="post" action="">
 		<label for="date">Date:</label>
 		<input type="date" id="date" name="date" required><br><br>
 		<label for="time">Time:</label>
@@ -82,7 +73,6 @@ if(isset($_POST['submit'])) {
   // Get form data
   
 if(isset($_POST['submit'])){
-  $name = $_POST['date'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
 	$table_number = $_POST['table_number'];
@@ -100,8 +90,4 @@ if(isset($_POST['submit'])){
   $conn->close();
 }
 ?>
-  
-</script>
-
-
-<?php include "footer2.php" ?>
+<?php include "footer2.php"?>

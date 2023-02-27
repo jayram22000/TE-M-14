@@ -110,13 +110,17 @@ h1 {
       <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
           <div class="card">
-            <img src="image/food3.jpg" class="card-img-top" alt="">
-            <div class="card-body" input type="text" id="Order Now" value="Green Salad">
-              <h5 class="card-title">€4.99</h5> 
-              <p class="card-text">Green salad</p>
-              <a href="#top" class="btn btn-primary" 
-              button onclick="myFunction()" >Order Now</a>
-             
+          <span onmouseover="
+            this.style.backgroundColor='light-grey';
+            this.style.fontSize='2.5em'";
+            onmouseout="this.style.backgroundColor='whitesmoke';
+            this.style.backgroundColor='white';
+            this.style.fontSize='1.1em'";>
+            <img src="image/food1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">€3.99</h5>
+              <p class="card-text">Burger.</p>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -124,8 +128,8 @@ h1 {
           <div class="card">
             <img src="image/food1.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">€3.99</h5> 
-              <p class="card-text">Burger</p>
+              <h5 class="card-title">€4.99</h5> 
+              <p class="card-text">Green salad</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -135,7 +139,7 @@ h1 {
             <img src="image/food2.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">€2.99</h5>
-              <p class="card-text">Smoothie</p>
+              <p class="card-text">Juice</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -147,7 +151,7 @@ h1 {
             <img src="image/food3.jpg" class="card-img-top" alt="Image 4">
             <div class="card-body">
               <h5 class="card-title">€5.99</h5>
-              <p class="card-text">Prepped Salad</p>
+              <p class="card-text"> Salad</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -157,7 +161,7 @@ h1 {
             <img src="image/food4.jpg" class="card-img-top" alt="food6.jpg">
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
-              <p class="card-text">Lemon juice</p>
+              <p class="card-text">leamon juice</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -167,7 +171,7 @@ h1 {
             <img src="image/food5.jpg" class="card-img-top" alt="Image 5">
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
-              <p class="card-text">Pudding</p>
+              <p class="card-text">Fruits juice</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
