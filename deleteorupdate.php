@@ -1,4 +1,4 @@
-<?php include "../header1.php" ?> 
+<?php include "header1.php" ?> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,8 +59,8 @@ float:center;
 		<input type="number" id="price" name="price"><br>
 		<label for="image_url">Image URL:</label>
 		<input type="text" id="image_url" name="image_url"><br>
-		<input type="delete " name="delete_submit" value="Submit">
-        <input type="update " name="update_submit" value="Submit">
+		<input type="delete " name="delete_submit" value="delete">
+        <input type="update " name="update_submit" value="update">
 	</form>
 
 	<h2>Order</h2>
@@ -75,8 +75,8 @@ float:center;
 		<input type="text" id="status" name="status"><br>
 		<label for="created_at">created_at:</label>
 		<input type="created_at" id="created_at" name="created_at"><br>
-        <input type="delete " name="delete_submit" value="Submit">
-        <input type="update " name="update_submit" value="Submit">
+        <input type="delete " name="delete_submit" value="delette">
+        <input type="update " name="update_submit" value="update">
 
 		
 	</form>
@@ -91,8 +91,8 @@ float:center;
 		<input type="tel" id="phone" name="phone"><br>
 		<label for="date">Date:</label>
 		<input type="date" id="date" name="date"><br>
-		<input type="delete " name="delete_submit" value="Submit">
-        <input type="update " name="update_submit" value="Submit">
+		<input type="delete " name="delete_submit" value="delete">
+        <input type="update " name="update_submit" value="update">
 	</form>
     <?php
 // Connect to the database
