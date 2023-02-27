@@ -17,4 +17,12 @@
 			<th>Image URL</th>
 		</tr>
 		<?php
+        // Connect to the database
+		$servername = "db";
+		$username = "data2";
+		$password = "zack";
+		$dbname = "data2";
+		$conn = new mysqli($servername, $username, $password, $dbname);
+        ?>
 		
+</body>        
