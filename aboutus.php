@@ -148,6 +148,5 @@ if (isset($_POST['unsubscribe'])) {
   exit;
 }
 
- 
 ?>
 <?php include "footer2.php" ?>

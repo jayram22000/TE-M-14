@@ -67,5 +67,10 @@
   function bookTime(day) {
     alert("You have selected to book a time on " + day);
   }
+  // Close database connection
+  $conn->close();
+
+
+  
 </script>
 <?php include "footer2.php" ?> 
