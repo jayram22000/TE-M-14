@@ -133,7 +133,7 @@ img {
       <h2 class="mt-4">Reservation</h2>
       <div class="opt mt-4">
         <form action="" method="post">
-          <button class="btn btn-primary" type="submit">Book  Table</button>
+          <button class="btn btn-primary" type="submit" ><a href="reservation.php">Book  Table</button>
         </form>
       </div>
     </div>

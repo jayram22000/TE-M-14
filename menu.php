@@ -20,8 +20,14 @@ h1 {
 
 /* Add spacing between items */
 .card {
-  margin-bottom: 20px;
-  
+  margin-bottom: 30px;
+
+}
+
+.card:hover {
+  -ms-transform: scale(1.10); /* IE 9 */
+  -webkit-transform: scale(1.10); /* Safari 3-8 */
+  transform: scale(1.10); 
 }
 
 /* Style the order button */
@@ -57,6 +63,7 @@ h1 {
   }
   .card-text, .card-title {
     font-size: 16px;
+    text-align: center;
   }
 }
 
@@ -76,11 +83,32 @@ h1 {
 
     </style>
 
+    <?php
+
+
+
+    ?>
+
   <body>
-    <div class="container my-5">
-      <h1 class="text-center mb-5"> Salsa Restaurant Menu</h1>
+    <div class="container my-5">¨
+      <h1>Salsa Restaurant</h1>
+      <br><br>
+     
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);"> 
+    <a href="online-order.php" class="btn btn-primary">Order</a>
+  </h1>
+            <div id="item-list">
+            </div>
+           
+            <div id="grand-total">
+                <h6>Total</h6>
+
+                <h6 class="total" id="totalCost"></h6>
+
+            </div>
+    <br><br>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+      <div class="col">
           <div class="card">
           <span onmouseover="
             this.style.backgroundColor='light-grey';
@@ -94,16 +122,15 @@ h1 {
               <p class="card-text">Burger.</p>
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
-          </span>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="image/food3.jpg" class="card-img-top" alt="">
+            <img src="image/food1.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
-              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+              <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -113,7 +140,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€2.99</h5>
               <p class="card-text">Juice</p>
-              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+              <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -125,7 +152,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€5.99</h5>
               <p class="card-text"> Salad</p>
-              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+              <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -135,7 +162,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
               <p class="card-text">leamon juice</p>
-              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+              <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -145,7 +172,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
               <p class="card-text">Fruits juice</p>
-              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+              <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>

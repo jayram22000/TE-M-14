@@ -1,26 +1,55 @@
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
 
 <body>
 <!-- Make sure to set the form method to POST -->
-<form method="post" action="">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone" required><br><br>
-    <label for="date">Date:</label>
-    <input type="date" id="date" name="date" required><br><br>
-    <!-- Use a select input to choose the table to insert into -->
-    <label for="table">Choose a table:</label>
-    <select name="table" id="table">
-        <option value="1">table no.1</option>
-        <option value="2">table no .2</option>
-        <option value="3">table no .3</option>
-        <option value="reservation">Reservation</option>
-    </select><br><br>
-    <input type="submit" name="submit" value="Submit">
-</form>
+
 <?php
 // Check if the submit button was clicked
 if(isset($_POST['submit'])){
@@ -37,9 +66,11 @@ if(isset($_POST['submit'])){
   else{
       echo "Error: " .$conn->error;
   }
+  $conn->close();
 }
-
 ?>
+
+
 </body>
 
 

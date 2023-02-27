@@ -53,7 +53,7 @@
   <?php
   $days = array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
   $opening_times = array('10:00', '10:00', '10:00', '10:00', '10:00', '11:00', '11:00');
-  $closing_times = array('22:00', '22:00', '22:00', '22:00', '23:00', '23:00', '22:00');
+  $closing_times = array('22:00', '22:00', '22:00', '22:00', '23:00', '23:00', '22:00');?>
   <form method="post" action="">
 		<label for="date">Date:</label>
 		<input type="date" id="date" name="date" required><br><br>
@@ -82,6 +82,7 @@ if(isset($_POST['submit'])) {
   // Get form data
   
 if(isset($_POST['submit'])){
+  $name = $_POST['date'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
 	$table_number = $_POST['table_number'];
