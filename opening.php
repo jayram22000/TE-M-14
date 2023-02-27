@@ -98,7 +98,7 @@ if(isset($_POST['submit'])){
   // Close database connection
   $conn->close();
 }
-?>
+
   
 </script>
 
