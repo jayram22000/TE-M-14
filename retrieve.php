@@ -106,5 +106,8 @@
         } else {
             echo "No reservation found.";
         }
+         // Close database connection
+         mysqli_close($conn);
+         ?>
 </body>  
 </html>      
