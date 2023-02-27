@@ -29,5 +29,26 @@
 			die("Connection failed: " . mysqli_connect_error());
 		}
         
-        ?>
+        
+
+// Retrieve menu data
+		$sql = "SELECT * FROM menu";
+		$result = mysqli_query($conn, $sql);
+
+		if (mysqli_num_rows($result) > 0) {
+			while($row = mysqli_fetch_assoc($result)) {
+				echo "<tr>";
+				echo "<td>" . $row["id"] . "</td>";
+				echo "<td>" . $row["name"] . "</td>";
+				echo "<td>" . $row["description"] . "</td>";
+				echo "<td>" . $row["price"] . "</td>";
+				echo "<td>" . $row["image_url"] . "</td>";
+				echo "</tr>";
+			}
+		} else {
+			echo "0 results";
+		}
+		?>
+	</table>
+
 </body>        
