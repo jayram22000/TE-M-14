@@ -92,21 +92,7 @@ h1 {
   <body>
     <div class="container my-5">¨
       <h1>Salsa Restaurant</h1>
-      <br><br>
-     
-    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);"> 
-    <a href="online-order.php" class="btn btn-primary">Order</a>
-  </h1>
-            <div id="item-list">
-            </div>
-           
-            <div id="grand-total">
-                <h6>Total</h6>
-
-                <h6 class="total" id="totalCost"></h6>
-
-            </div>
-    <br><br>
+    
       <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
           <div class="card">
