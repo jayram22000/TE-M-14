@@ -95,9 +95,17 @@ h1 {
       <br><br>
      
     <h1 style="background-color:hsla(9, 100%, 64%, 0.5);"> 
-    <a href="online-order.php" class="btn btn-primary" input type="text" id="Order">Order</a>
+    <a href="online-order.php" class="btn btn-primary">Order</a>
   </h1>
- 
+            <div id="item-list">
+            </div>
+           
+            <div id="grand-total">
+                <h6>Total</h6>
+
+                <h6 class="total" id="totalCost"></h6>
+
+            </div>
     <br><br>
       <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
@@ -108,11 +116,7 @@ h1 {
               <p class="card-text">Green salad</p>
               <a href="#top" class="btn btn-primary" 
               button onclick="myFunction()" >Order Now</a>
-              <script>
-              function myFunction() {
-              document.getElementById("Order").value = document.getElementById("Order Now").value;
-              }
-              </script> 
+             
             </div>
           </div>
         </div>
@@ -131,7 +135,7 @@ h1 {
             <img src="image/food2.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">€2.99</h5>
-              <p class="card-text">Juice</p>
+              <p class="card-text">Smoothie</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -143,7 +147,7 @@ h1 {
             <img src="image/food3.jpg" class="card-img-top" alt="Image 4">
             <div class="card-body">
               <h5 class="card-title">€5.99</h5>
-              <p class="card-text"> Salad</p>
+              <p class="card-text">Prepped Salad</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -153,7 +157,7 @@ h1 {
             <img src="image/food4.jpg" class="card-img-top" alt="food6.jpg">
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
-              <p class="card-text">lemon juice</p>
+              <p class="card-text">Lemon juice</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
@@ -163,7 +167,7 @@ h1 {
             <img src="image/food5.jpg" class="card-img-top" alt="Image 5">
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
-              <p class="card-text">Fruits juice</p>
+              <p class="card-text">Pudding</p>
               <a href="online-order.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
