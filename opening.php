@@ -1,4 +1,5 @@
 <?php include "header1.php" ?>   <!-- universal footer !-->
+
 <style>
       body{
       background-color:none;
@@ -65,9 +66,9 @@
 		<input type="number" id="guest_number" name="guest_number" required><br><br>
 		<input type="submit" value="Submit">
 	</form>
-    <?php
 
-if(isset($_POST['submit'])) {
+<?php
+  if(isset($_POST['submit'])) {
   // Connect to the database
   $servername = "db";
   $username = "data2";
@@ -81,13 +82,13 @@ if(isset($_POST['submit'])) {
   }
   // Get form data
   
-if(isset($_POST['submit'])){
+  if(isset($_POST['submit'])){
   $name = $_POST['date'];
 	$date = $_POST['date'];
 	$time = $_POST['time'];
 	$table_number = $_POST['table_number'];
 	$guest_number = $_POST['guest_number'];
-}
+  }
   // Create SQL statement
   $sql = "INSERT INTO booktime(name, time, table_number,guest_number) VALUES ('$name', '$time', '$table_number'$guest_number')";
   // Execute SQL statement and check for errors
