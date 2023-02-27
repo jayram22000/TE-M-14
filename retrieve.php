@@ -58,5 +58,26 @@
 			<th>Quantity</th>
 			<th>Status</th>
 		</tr>
+
+        <?php
+		// Retrieve orders data
+		$sql = "SELECT * FROM order";
+		$result = mysqli_query($conn, $sql);
+
+		if (mysqli_num_rows($result) > 0) {
+			while($row = mysqli_fetch_assoc($result)) {
+				echo "<tr>";
+				echo "<td>" . $row["id"] . "</td>";
+				echo "<td>" . $row["menu_id"] . "</td>";
+				echo "<td>" . $row["user_id"] . "</td>";
+				echo "<td>" . $row["quantity"] . "</td>";
+				echo "<td>" . $row["status"] . "</td>";
+				echo "</tr>";
+			}
+		} else {
+			echo "0 results";
+		}
+		?>
+	</table>
 </body>  
 </html>      
