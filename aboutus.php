@@ -31,18 +31,7 @@
   font-style: italic;  
   }       
   
-.button[type="submit"] {
-  background-color: #black;
-  color:white;
-  font-size: 16px;
-  padding: 10px;
-  border: red;
-  border-radius: 2px;
-  cursor: pointer;
-  border: 5px solid #ccc;
-  background-color: blue;
-  color: white; 
-}
+
 
 input[type="email"] {
   width: 30%;
@@ -53,6 +42,42 @@ input[type="email"] {
  
 }
 
+/* Style for the "Subscribe" button */
+button[name="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Hover effect for the "Subscribe" button */
+button[name="submit"]:hover {
+  background-color: #black;
+  border: 5px;
+
+}
+
+/* Style for the "Unsubscribe" button */
+button[name="unsubscribe"] {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-left: 10px; /* add some space between the buttons */
+}
+
+/* Hover effect for the "Unsubscribe" button */
+button[name="unsubscribe"]:hover {
+  background-color: #e53935;
+}
 
 
 </style>
