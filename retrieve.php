@@ -29,9 +29,7 @@
 			die("Connection failed: " . mysqli_connect_error());
 		}
         
-        
-
-// Retrieve menu data
+        // Retrieve menu data
 		$sql = "SELECT * FROM menu";
 		$result = mysqli_query($conn, $sql);
 
@@ -50,5 +48,15 @@
 		}
 		?>
 	</table>
-
-</body>        
+    <!-- added an order section -->
+    <h2>Orders</h2>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Menu ID</th>
+			<th>User ID</th>
+			<th>Quantity</th>
+			<th>Status</th>
+		</tr>
+</body>  
+</html>      
