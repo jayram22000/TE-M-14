@@ -79,5 +79,15 @@
 		}
 		?>
 	</table>
+
+    <h2>Reservation</h2>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Date</th>
+		</tr>
 </body>  
 </html>      
