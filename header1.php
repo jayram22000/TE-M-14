@@ -7,7 +7,7 @@
     <title><?php echo $title="header" ?></title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     
-    </head>
+ 
   
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -60,8 +60,8 @@
   padding: 1px;
 }
     </style>
-  <script src="../crude/site.js"></script>  
-  </head>
+ 
+
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
@@ -100,26 +100,6 @@
         </div>
     </nav>
     
-    <!-- just a normal language switcher function  -->
-    <script>
-  function changeLanguage() {
-  var selectedLanguage = document.getElementById("language-selector").value;
-  switch (selectedLanguage) {
-    case "en":
-      window.location.href = "https://www.hamk.fi/?lang=en";
-      document.getElementById("container").style.backgroundColor = "white"; // change background color to white
-      break;
-    case "sv":
-      window.location.href = "https://www.hamk.fi/?lang=sv";
-      document.getElementById("container").style.backgroundColor = "blue"; // change background color to blue
-      break;
-    case "fi":
-      window.location.href = "https://www.hamk.fi/?lang=fi";
-      document.getElementById("container").style.backgroundColor = "green"; // change background color to green
-      break;
-    default:
-      break;
-  }
-}
 
-    </script>
+
+ 
