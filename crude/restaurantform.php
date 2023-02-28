@@ -1,50 +1,79 @@
 <?php include "../header1.php" ?> 
-<!DOCTYPE html>
-<html>
+  <?php include "../crude/filter.php"; ?>
+
+
 <head>
 	<title>Restaurant Form</title>
-</head>
 	<style>
+		body {
+			background-color: none;
+			font-family: latha;
+			color: whitesmoke;
+			background: url(../image/food.jpg) no-repeat;
+			background-size: cover;
+		}
+		
+		form {
+			max-width: 600px;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		/* Style the input fields */
+		input[type="text"],
+		input[type="number"],
+		input[type="email"],
+		input[type="tel"],
+		input[type="date"],
+		textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
 
-body{
-      background-color:none;
-      font-family: latha;
-      color:whitesmoke;
-      background:url(../image/food.jpg)no-repeat;
-      background-size: cover;
-  }
+		/* Style the submit button */
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		/* Three container tables for mobile */
+		@media only screen and (max-width: 600px) {
+			form {
+				max-width: 300px;
+			}
+			.container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.container > * {
+				width: 100%;
+			}
+			.container:nth-child(1) {
+				order: 2;
+			}
+			.container:nth-child(2) {
+				order: 1;
+			}
+			.container:nth-child(3) {
+				order: 3;
+			}
+		}
+	</style>
+</head>
 
-		/* Style the form for mobile devices */
-@media only screen and (max-width: 600px) {
-  /* Center the form */
-  form {
-margin: 0 auto;
-max-width: 300px; 
-float:center;
-  }
-  
-  /* Style the input fields */
-  input[type="text"], input[type="number"], input[type="email"], input[type="tel"], input[type="date"], textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-
-  /* Style the submit button */
-  input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-}
 </style>
 
 <body>
@@ -119,23 +148,24 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 			}
 		}
 
-		// Handle order form 
-        if (isset($_POST['order_submit'])) {
-            $menu_id = $_POST['menu_id'];
-            $user_id = $_POST['user_id'];
-            $quantity = $_POST['quantity'];
-            $status = $_POST['status'];
-			$created_at = $_POST['created_at'];
-    
-            $sql = "INSERT INTO order (menu_id, user_id, quantity, status, created_at) VALUES ('$menu_id', '$user_id', '$quantity', '$status', '$created_at')";
-    
-            if (mysqli_query($conn, $sql)) {
-                echo "Order record created successfully";
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-        }
-    
+      // Handle order form 
+     if (isset($_POST['order_submit'])) {
+    $menu_id = $_POST['menu_id'];
+    $user_id = $_POST['user_id'];
+    $quantity = $_POST['quantity'];
+    $status = $_POST['status'];
+   
+ // Use a default value for created_at if it is not set in $_POST
+ $created_at = isset($_POST['created_at']) ? $_POST['created_at'] : date('Y-m-d H:i:s');
+
+ $sql = "INSERT INTO `order` (menu_id, user_id, quantity, status, created_at) VALUES ('$menu_id', '$user_id', '$quantity', '$status', '$created_at')";
+    if (mysqli_query($conn, $sql)) {
+        echo "Order record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+}
+
         // Handle reservation form 
         if (isset($_POST['reservation_submit'])) {
             $name = $_POST['name'];

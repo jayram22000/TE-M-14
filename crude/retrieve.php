@@ -60,6 +60,7 @@
 			<th>User ID</th>
 			<th>Quantity</th>
 			<th>Status</th>
+			<th>Created At</th>
 		</tr>
 
         <?php
@@ -75,6 +76,7 @@
 				echo "<td>" . $row["user_id"] . "</td>";
 				echo "<td>" . $row["quantity"] . "</td>";
 				echo "<td>" . $row["status"] . "</td>";
+				echo "<td>" . $row["created_at"] . "</td>";
 				echo "</tr>";
 			}
 		} else {
