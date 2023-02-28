@@ -116,7 +116,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€2.99</h5>
               <p class="card-text">Juice</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€5.99</h5>
               <p class="card-text"> Salad</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
               <p class="card-text">leamon juice</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -158,7 +158,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
               <p class="card-text">Fruits juice</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
