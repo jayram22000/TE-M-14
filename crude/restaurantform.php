@@ -1,6 +1,4 @@
 <?php include "../header1.php" ?> 
-<!DOCTYPE html>
-<html>
 <head>
 	<title>Restaurant Form</title>
 </head>
@@ -119,23 +117,24 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 			}
 		}
 
-		// Handle order form 
-        if (isset($_POST['order_submit'])) {
-            $menu_id = $_POST['menu_id'];
-            $user_id = $_POST['user_id'];
-            $quantity = $_POST['quantity'];
-            $status = $_POST['status'];
-			$created_at = $_POST['created_at'];
-    
-            $sql = "INSERT INTO order (menu_id, user_id, quantity, status, created_at) VALUES ('$menu_id', '$user_id', '$quantity', '$status', '$created_at')";
-    
-            if (mysqli_query($conn, $sql)) {
-                echo "Order record created successfully";
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-        }
-    
+      // Handle order form 
+     if (isset($_POST['order_submit'])) {
+    $menu_id = $_POST['menu_id'];
+    $user_id = $_POST['user_id'];
+    $quantity = $_POST['quantity'];
+    $status = $_POST['status'];
+   
+ // Use a default value for created_at if it is not set in $_POST
+ $created_at = isset($_POST['created_at']) ? $_POST['created_at'] : date('Y-m-d H:i:s');
+
+ $sql = "INSERT INTO `order` (menu_id, user_id, quantity, status, created_at) VALUES ('$menu_id', '$user_id', '$quantity', '$status', '$created_at')";
+    if (mysqli_query($conn, $sql)) {
+        echo "Order record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+}
+
         // Handle reservation form 
         if (isset($_POST['reservation_submit'])) {
             $name = $_POST['name'];
