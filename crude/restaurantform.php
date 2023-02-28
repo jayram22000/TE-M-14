@@ -1,48 +1,79 @@
 <?php include "../header1.php" ?> 
+<?php include 'filter.php'; ?>
+
+
 <head>
 	<title>Restaurant Form</title>
-</head>
 	<style>
+		body {
+			background-color: none;
+			font-family: latha;
+			color: whitesmoke;
+			background: url(../image/food.jpg) no-repeat;
+			background-size: cover;
+		}
+		
+		form {
+			max-width: 600px;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		/* Style the input fields */
+		input[type="text"],
+		input[type="number"],
+		input[type="email"],
+		input[type="tel"],
+		input[type="date"],
+		textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
 
-body{
-      background-color:none;
-      font-family: latha;
-      color:whitesmoke;
-      background:url(../image/food.jpg)no-repeat;
-      background-size: cover;
-  }
+		/* Style the submit button */
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		/* Three container tables for mobile */
+		@media only screen and (max-width: 600px) {
+			form {
+				max-width: 300px;
+			}
+			.container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.container > * {
+				width: 100%;
+			}
+			.container:nth-child(1) {
+				order: 2;
+			}
+			.container:nth-child(2) {
+				order: 1;
+			}
+			.container:nth-child(3) {
+				order: 3;
+			}
+		}
+	</style>
+</head>
 
-		/* Style the form for mobile devices */
-@media only screen and (max-width: 600px) {
-  /* Center the form */
-  form {
-margin: 0 auto;
-max-width: 300px; 
-float:center;
-  }
-  
-  /* Style the input fields */
-  input[type="text"], input[type="number"], input[type="email"], input[type="tel"], input[type="date"], textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-
-  /* Style the submit button */
-  input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-}
 </style>
 
 <body>
