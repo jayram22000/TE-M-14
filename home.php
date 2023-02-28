@@ -1,5 +1,6 @@
 <?php include "header1.php" ?> 
 <title><?php echo $title="home" ?></title>  <!-- universal footer !-->
+
  <style>
   /* Set the font family and size for all elements */
   body{
