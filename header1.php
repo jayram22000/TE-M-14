@@ -70,7 +70,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-auto mb-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="home.php">Home</a>
+                        <a class="nav-link" href="homee.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="menu.php">Menu</a>
