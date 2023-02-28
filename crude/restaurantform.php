@@ -1,5 +1,5 @@
 <?php include "../header1.php" ?> 
-<?php include 'filter.php'; ?>
+      include '../filter.php'; ?>
 
 
 <head>
