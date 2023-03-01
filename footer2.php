@@ -42,7 +42,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0rem;
-  color: rgb(195, 118, 17);
+  color:whitesmoke;
  
 }
 
