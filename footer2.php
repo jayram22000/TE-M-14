@@ -1,10 +1,10 @@
 <style>
 /* Footer Styles */
 .body{
-  background:black;
+  background-color:black;
   font-style: italic;
   background:none;
-
+color: white;
 }
 
 .footer p {

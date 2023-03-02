@@ -1,9 +1,6 @@
 <?php include "header1.php" ?>
 <title><?php echo $title="menu" ?></title>
-
 <style>
-
-
 	body {
 		background-image: url("image/food.jpg");
     font-family:latha;
@@ -83,8 +80,6 @@ h1 {
 
 
     </style>
-
-
   <body>
  
   <div id="cart-container"></div>
@@ -103,12 +98,11 @@ h1 {
             this.style.fontSize='1.1em'";>
             <img src="image/food1.jpg" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">€3.99</h5>
+              <h5 class="card-title">€6.99</h5>
               <p class="card-text">Burger.</p>
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
               <!-- Add a button that triggers the addToCart function -->
             <button onclick="addToCart('burger', '3.99')" class="btn btn-primary">Add to Cart</button>
-
             </div>
           </div>
         </div>
@@ -121,7 +115,6 @@ h1 {
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
                <!-- Add a button that triggers the addToCart function -->
             <button onclick="addToCart('Green salad', '4.99')" class="btn btn-primary">Add to Cart</button>
-
             </div>
           </div>
         </div>
@@ -134,8 +127,6 @@ h1 {
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
                <!-- Add a button that triggers the addToCart function -->
                <button onclick="addToCart('juice', '3.99')" class="btn btn-primary">Add to Cart</button>
-
-
             </div>
           </div>
         </div>
@@ -150,6 +141,7 @@ h1 {
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
                <!-- Add a button that triggers the addToCart function -->
             <button onclick="addToCart('salad', '5.99')" class="btn btn-primary">Add to Cart</button>
+             
 
             </div>
           </div>
@@ -163,6 +155,7 @@ h1 {
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
                <!-- Add a button that triggers the addToCart function -->
             <button onclick="addToCart('lemon juice', '6.99')" class="btn btn-primary">Add to Cart</button>
+              
 
             </div>
           </div>
@@ -176,6 +169,7 @@ h1 {
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
                <!-- Add a button that triggers the addToCart function -->
             <button onclick="addToCart('fruits juice','3.99')" class="btn btn-primary">Add to Cart</button>
+             
 
             </div>
           </div>
