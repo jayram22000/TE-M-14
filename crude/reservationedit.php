@@ -30,5 +30,39 @@
 		text-decoration: underline;
 	}
 </style>
+<?php include "db.php";
 
+		// Check if form is submitted
+		if(isset($_POST['submit'])) {
+			$id = $_POST['id'];
+			$name = $_POST['name'];
+			$email = $_POST['email'];
+			$phone = $_POST['phone'];
 
+			// Update data in the database
+			$sql = "UPDATE reservation SET name='$name', email='$email', phone='$phone' WHERE id=$id";
+			if (mysqli_query($conn, $sql)) {
+				echo "Record updated successfully";
+			} else {
+				echo "Error updating record: " . mysqli_error($conn);
+			}
+		}
+
+		// Check if delete button is pressed
+		if(isset($_POST['delete'])) {
+			$id = $_POST['id'];
+
+			// Delete data from the database
+			$sql = "DELETE FROM reservation WHERE id=$id";
+			if (mysqli_query($conn, $sql)) {
+				echo "Record deleted successfully";
+			} else {
+				echo "Error deleting record: " . mysqli_error($conn);
+			}
+		}
+
+		// Retrieve data from the database
+		$sql = "SELECT * FROM reservation";
+		$result = mysqli_query($conn, $sql);
+
+		
