@@ -132,7 +132,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€5.99</h5>
               <p class="card-text"> Salad</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
               <p class="card-text">leamon juice</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
@@ -152,7 +152,7 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
               <p class="card-text">Fruits juice</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="food.php" class="btn btn-primary">Order Now</a>
             </div>
           </div>
         </div>
