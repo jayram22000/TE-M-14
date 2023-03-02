@@ -1,6 +1,6 @@
 
 <?php include "header1.php" ?> 
-
+<?php include 'db.php' ?>
 
 <style>
       body{
@@ -26,7 +26,7 @@ if(isset($_POST['submit'])) {
   // Get the email address from the form
   $email = $_POST['email'];
 
-  // Store the email address in a file or database
+  // Store the email address in a database
   $file = fopen("subscribers.txt", "a");
   fwrite($file, $email . "\n");
   fclose($file);
