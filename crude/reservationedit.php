@@ -65,4 +65,33 @@
 		$sql = "SELECT * FROM reservation";
 		$result = mysqli_query($conn, $sql);
 
-		
+		if (mysqli_num_rows($result) > 0) {
+			echo "<table>";
+			echo "<tr><th>ID</th><th>Name</th><th>Email</th><th>Phone</th><th>Action</th></tr>";
+			while($row = mysqli_fetch_assoc($result)) {
+				echo "<form method='post'>";
+				echo "<tr>";
+				echo "<td>" . $row["id"] . "</td>";
+				echo "<td><input type='text' name='name' value='" . $row["name"] . "'></td>";
+				echo "<td><input type='text' name='email' value='" . $row["email"] . "'></td>";
+				echo "<td><input type='text' name='phone' value='" . $row["phone"] . "'></td>";
+				echo "<td>";
+				echo "<input type='hidden' name='id' value='" . $row["id"] . "'>";
+				echo "<input type='submit' name='submit' value='Update'>";
+				echo "<input type='submit' name='delete' value='Delete'>";
+				echo "</td>";
+				echo "</tr>";
+				echo "</form>";
+			}
+			echo "</table>";
+		} else {
+			echo "0 results";
+		}
+
+		// Close database connection
+		mysqli_close($conn);
+	?>
+
+
+<?php
+
