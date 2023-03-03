@@ -108,7 +108,7 @@ h1 {
         </div>
         <div class="col">
           <div class="card">
-            <img src="image/food1.jpg" class="card-img-top" alt="">
+            <img src="image/green.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
