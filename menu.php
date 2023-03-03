@@ -1,6 +1,5 @@
 <?php include "header1.php" ?>
 <title><?php echo $title="menu" ?></title>
-<script type="text/javascript" src="../TE-M-14 /site.js"></script>
 <style>
 	body {
 		background-image: url("image/food.jpg");
@@ -79,11 +78,12 @@ h1 {
   }
 }
 
+
     </style>
-
- 
-
   <body>
+ 
+  <div id="cart-container"></div>
+
     <div class="container my-5">¨
       <h1>Salsa Restaurant</h1>
     
@@ -100,17 +100,21 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
               <p class="card-text">Burger.</p>
-              <a href="food.php" class="btn btn-primary">Green salad</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+              <!-- Add a button that triggers the addToCart function -->
+            <button onclick="addToCart('burger', '3.99')" class="btn btn-primary">Add to Cart</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="image/food1.jpg" class="card-img-top" alt="">
+            <img src="image/green.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">€4.99</h5> 
               <p class="card-text">Green salad</p>
               <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+               <!-- Add a button that triggers the addToCart function -->
+            <button onclick="addToCart('Green salad', '4.99')" class="btn btn-primary">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -120,7 +124,9 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€2.99</h5>
               <p class="card-text">Juice</p>
-              <a href="online-order.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+               <!-- Add a button that triggers the addToCart function -->
+               <button onclick="addToCart('juice', '3.99')" class="btn btn-primary">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -132,7 +138,11 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€5.99</h5>
               <p class="card-text"> Salad</p>
-              <a href="food.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+               <!-- Add a button that triggers the addToCart function -->
+            <button onclick="addToCart('salad', '5.99')" class="btn btn-primary">Add to Cart</button>
+             
+
             </div>
           </div>
         </div>
@@ -142,7 +152,11 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€6.99</h5>
               <p class="card-text">leamon juice</p>
-              <a href="food.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+               <!-- Add a button that triggers the addToCart function -->
+            <button onclick="addToCart('lemon juice', '6.99')" class="btn btn-primary">Add to Cart</button>
+              
+
             </div>
           </div>
         </div>
@@ -152,7 +166,11 @@ h1 {
             <div class="card-body">
               <h5 class="card-title">€3.99</h5>
               <p class="card-text">Fruits juice</p>
-              <a href="food.php" class="btn btn-primary">Order Now</a>
+              <a href="crude/food.php" class="btn btn-primary">Order Now</a>
+               <!-- Add a button that triggers the addToCart function -->
+            <button onclick="addToCart('fruits juice','3.99')" class="btn btn-primary">Add to Cart</button>
+             
+
             </div>
           </div>
         </div>
