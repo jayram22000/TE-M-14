@@ -1,5 +1,7 @@
 <?php include "header1.php" ?> 
-<?php include "crude/filter.php"; ?>
+<?php include ('crude/filter.php')?>
+<?php include 'crude/db.php'?> 
+<?php include ('crude/submit.php');?>
 <title><?php echo $title="home" ?></title>
 
 <style>
@@ -98,7 +100,7 @@ form {
 			<div class="col-sm-12 col-md-4">
             <div class="row justify-content-end">
 				<h2 class="my-4">Menu</h2>
-				<form method="post" action="../restaurantform.php<?php echo $_SERVER['PHP_SELF']; ?>">
+				<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 					<div class="form-group">
 						<label for="name">Name:</label>
 						<input type="text" id="name" name="name" class="form-control">
@@ -116,7 +118,7 @@ form {
 						<input type="text" id="image_url" name="image_url" class="form-control">
 					</div>
 					<input type="submit" name="menu_submit" value="Submit" class="btn btn-primary mt-3">
-                    <a href="crude/menuedit.php" class="btn btn-secondary mt-3">Edit/Cancel</a>
+          <a href="crude/menuedit.php" class="btn btn-secondary mt-3">Edit/Cancel</a>
 				</form>
 			</div>
   </div>
@@ -124,7 +126,7 @@ form {
 			<div class="col-sm-12 col-md-4">
             <div class="row justify-content-center">
 				<h2 class="my-4">Order</h2>
-				<form method="post" action="../restaurantform.php<?php echo $_SERVER['PHP_SELF']; ?>">
+				<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 					<div class="form-group">
 						<label for="menu_id">Menu ID:</label>
 						<input type="number" id="menu_id" name="menu_id" class="form-control">
@@ -150,7 +152,7 @@ form {
 			<div class="col-sm-12 col-md-4">
             <div class="row justify-content-start">
 				<h2 class="my-4">Reservation</h2>
-				<form method="post" action="../restaurantform.php<?php echo $_SERVER['PHP_SELF']; ?>">
+        <form method="post" action="><?php echo $_SERVER['PHP_SELF']; ?>">
 					<div class="form-group">
 						<label for="name">Name:</label>
 						<input type="text" id="name" name="name" class="form-control">
