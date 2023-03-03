@@ -132,7 +132,7 @@ img {
     <div class="col-md-4">
       <h2 class="mt-4">Reservation</h2>
       <div class="opt mt-4">
-        <form action="" method="post">
+        <form action="onlinee.php" method="post">
           <button class="btn btn-primary" type="submit">Book  Table</button>
         </form>
       </div>
