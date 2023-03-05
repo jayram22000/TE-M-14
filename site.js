@@ -14,7 +14,3 @@ var numbers = [6.99,4,3,4,5,6];
 
 //var fullNumber = +document.getElementById("calc-disp").textContent; 
 
-
-<noscript>
-    Please enable Javascript to view this content
-</noscript>
