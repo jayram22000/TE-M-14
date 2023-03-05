@@ -7,7 +7,7 @@
       background:url(image/food.jpg)no-repeat;
       background-size: cover;
   }
-  <style>
+ 
   table {
     border-collapse: collapse;
     width: 100%;

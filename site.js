@@ -10,6 +10,8 @@ let fjuice=3.99;
 var numbers = [6.99,4,3,4,5,6];
 
 // +so that it's a number not a string (try removing it)
+
+
 //var fullNumber = +document.getElementById("calc-disp").textContent; 
 
 
