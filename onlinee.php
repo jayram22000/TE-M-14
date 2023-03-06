@@ -1,7 +1,7 @@
 <?php include "header1.php" ?> 
-<?php include ('crude/filter.php')?>
+<?php include 'crude/filter.php'?>
 <?php include 'crude/db.php'?> 
-<?php include ('crude/submit.php');?>
+<?php include 'crude/submit.php';?>
 <title><?php echo $title="home" ?></title>
 
 <style>

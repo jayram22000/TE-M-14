@@ -5,9 +5,10 @@
     body{
       background-color:none;
       font-family: latha;
-      color:white;
+      color:whitesmoke;
       background:url(image/food.jpg)no-repeat;
       background-size: cover;
+      text-align: center;
   }
 
   .wd {
@@ -102,13 +103,7 @@ button[name="unsubscribe"]:hover {
         </p>
     </div><br><br>
 
-    <style>
 
-    body
-  {
-      text-align: center;
-  }
-  </style>
 
   <p>
   For promotional new submit your email adress and subscribe using the buttons below:          
