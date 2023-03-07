@@ -1,4 +1,6 @@
-<?php include "header1.php" ?>
+<?php include "header1.php" 
+
+?>
 <title><?php echo $title="aboutus" ?></title>
 
 <style>
