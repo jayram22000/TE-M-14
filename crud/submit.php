@@ -1,4 +1,5 @@
-<?php include "db.php";?> 
+<?php include "db.php"?> 
+<?php include "filter.php";?>
 
 <!-- universal footer !-->
 <?php

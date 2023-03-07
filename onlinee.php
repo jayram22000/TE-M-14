@@ -117,7 +117,7 @@ form {
 						<input type="text" id="image_url" name="image_url" class="form-control">
 					</div>
 					<input type="submit" name="menu_submit" value="Submit" class="btn btn-primary mt-3">
-          <a href="crud/menuedit.php" class="btn btn-secondary mt-3">Edit/Cancel</a>
+          <a href='crud/menuedit.php' class="btn btn-secondary mt-3">Edit/Cancel</a>
 				</form>
 			</div>
   </div>
@@ -143,7 +143,7 @@ form {
 						<input type="text" id="status" name="status" class="form-control">
 					</div>
 					<input type="submit" name="order_submit" value="Submit" class="btn btn-primary mt-3">
-                    <a href="crud/onlineedit.php" class="btn btn-secondary mt-3">Edit/Cancel</a>
+                    <a href='crud/onlineedit.php' class="btn btn-secondary mt-3">Edit/Cancel</a>
 				</form>
 			</div>
             </div>
@@ -169,7 +169,7 @@ form {
              <input type="date" id="date" name="date" class="form-control">
              </div>
            <input type="submit" name="reservation_submit" value="Submit" class="btn btn-primary mt-3">
-             <a href="crud/reservationedit.php" class="btn btn-secondary mt-3">Edit/Cancel</a>
+             <a href='crud/reservationedit.php' class="btn btn-secondary mt-3">Edit/Cancel</a>
             </form>
             </div>
             </div>

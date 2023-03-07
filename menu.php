@@ -8,7 +8,11 @@
 		background-size: cover;
 		color: white;
 	}
-
+  @media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+}
 /* Center the header */
 h1 {
   text-align: center;
