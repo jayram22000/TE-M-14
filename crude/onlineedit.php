@@ -2,64 +2,77 @@
 <?php include "db.php";?> 
 <style>
 
-/* Set the font family and size for all elements */
-body{ 
+body{
       background-color:none;
       font-family: latha;
-      color:whitesmoke;
-      background:url(image/food.jpg)no-repeat;
+      color:white;
+      background:url(../image/food.jpg)no-repeat;
       background-size: cover;
   }
+/* For small screens */
+@media (max-width: 768px) {
   table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  input[type="text"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
+/* For large screens */
+@media (min-width: 769px) {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  input[type="text"], input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 }
 
-th {
-  background-color: #333;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-tr:hover {
-  background-color: #ddd;
-}
-
-input[type='text'], input[type='number'] {
-  width: 100%;
-  padding: 8px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-input[type='submit'] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 8px 16px;
-  transition: background-color 0.3s;
-}
-
-input[type='submit']:hover {
-  background-color: #3e8e41;
-}
-
- </style>
- <?php
-
-
+</style>
+<?php
   // Check if update or cancel button is clicked
   if(isset($_POST["update_order"])) {
     // Update order status in the database

@@ -1,3 +1,4 @@
+<?php include "db.php";?> 
 <style>
 	table {
 		width: 100%;
@@ -93,5 +94,5 @@
 	?>
 
 
-<?php
+
 

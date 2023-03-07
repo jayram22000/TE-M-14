@@ -1,3 +1,5 @@
+<?php include "db.php";?> 
+
 <!-- universal footer !-->
 <?php
 
@@ -38,7 +40,7 @@ if (isset($_POST['menu_submit'])) {
   $date = $_POST['date'];
 
   // insert data into database (assuming you have a database connection already set up)
-  $sql = "INSERT INTO reservations (name, email, phone, date) VALUES ('$name', '$email', '$phone', '$date')";
+  $sql = "INSERT INTO `reservation`(name, email, phone, date) VALUES ('$name', '$email', '$phone', '$date')";
   if (mysqli_query($conn, $sql)) {
     echo "Reservation  successfully.";
   } else {

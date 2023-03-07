@@ -1,7 +1,5 @@
 <?php include "header1.php" ?> 
-<?php include 'crude/filter.php'?>
-<?php include 'crude/db.php'?> 
-<?php include 'crude/submit.php';?>
+<?php  include 'crude/submit.php'?>
 <title><?php echo $title="home" ?></title>
 
 <style>
@@ -152,7 +150,7 @@ form {
 			<div class="col-sm-12 col-md-4">
             <div class="row justify-content-start">
 				<h2 class="my-4">Reservation</h2>
-        <form method="post" action="><?php echo $_SERVER['PHP_SELF']; ?>">
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 					<div class="form-group">
 						<label for="name">Name:</label>
 						<input type="text" id="name" name="name" class="form-control">
@@ -174,4 +172,7 @@ form {
             </form>
             </div>
             </div>
+
+            <br>
+            <br>
             <?php include "footer2.php" ?>

@@ -141,4 +141,7 @@ img {
 </div>
 </body>
 
+<br>
+<br>
+
 <?php include "footer2.php" ?>

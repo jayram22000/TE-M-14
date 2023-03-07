@@ -15,6 +15,11 @@
   </head>
   <style>
   
+  @media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+}
 
   /* Add hover effect to navbar links */
   .navbar-nav .nav-link:hover {
